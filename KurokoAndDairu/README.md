@@ -14,9 +14,14 @@ avec l'outil *tracer des segments de droite et des courbes de Bezier*
 
 Tracez grossièrement les contours qui vous intéressent puis éditer les noeuds pour affiner le dessin. 
 
+J'ai adapter la taille du puzzle à la boîte que j'avais dégotté. Les dimensions verticales et horizontales des pièces sont
+indépendantes, ça rend facile la mise à l'échelle par rapport à la boîte. 
+
 Il y a deux fichiers SVG : un pour le dessus et les pièces mobiles, et un en contreplaqué plus fin pour le fond. 
 
 Le pdf dans ce répertoire donne une esquisse de solution, il faut environ une centaine de mouvements. 
 
 Désolé, je n'ai pas la solution complète et détaillée. 
 
+
+: ![Deux crocodiles à échanger](./photo.jpg "Le puzzle terminé") .
