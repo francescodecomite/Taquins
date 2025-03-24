@@ -3,7 +3,7 @@
 
 
 **Il y a sans doute un copyright sur ce modèle (et les autres) de Minoru Abe. Donc a priori cette
-publication ne peut être utiliser pour diffuser l'objet, que ce soit gratuitement ou commercialement.** 
+publication ne peut être utilisée pour diffuser l'objet, que ce soit gratuitement ou commercialement.** 
 
 Le but est d'échanger, par la même méthode que le taquin, les deux crocodiles. Il faut enlever 
 la pièce rectangulaire du milieu. 
