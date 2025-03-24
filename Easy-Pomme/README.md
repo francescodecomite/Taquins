@@ -10,3 +10,5 @@ Ce que j'ai trouvé marrant, c'est le mécanisme d'aiguillage circulaire pour fa
 Le fichier *lespommes.svg* contient les instructions de découpe, j'ai laissé la photo qui m'a guidé pour tracer les lignes en fond d'écran. 
 
 Il existe plusieurs versions de ce puzzle, on en trouve des exemples à cette [adresse](https://puzzleworld.org/SlidingBlockPuzzles/gallery.htm "titre de lien optionnel").
+
+![Trois pommes à échanger](./pommes.JPG "Le puzzle terminé") .
