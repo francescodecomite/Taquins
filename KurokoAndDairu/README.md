@@ -24,4 +24,4 @@ Le pdf dans ce répertoire donne une esquisse de solution, il faut environ une c
 Désolé, je n'ai pas la solution complète et détaillée. 
 
 
-: ![Deux crocodiles à échanger](./photo.jpg "Le puzzle terminé") .
+: ![Deux crocodiles à échanger](./photo.JPG "Le puzzle terminé") .
