@@ -14,8 +14,10 @@ avec l'outil *tracer des segments de droite et des courbes de Bezier*
 
 Tracez grossièrement les contours qui vous intéressent puis éditer les noeuds pour affiner le dessin. 
 
-J'ai adapter la taille du puzzle à la boîte que j'avais dégotté. Les dimensions verticales et horizontales des pièces sont
+J'ai adapté la taille du puzzle à la boîte que j'avais dégotté. Les dimensions verticales et horizontales des pièces sont
 indépendantes, ça rend facile la mise à l'échelle par rapport à la boîte. 
+
+J'ai 'forcé' la gravure sur la découpeuse laser (divisé la vitesse par 3 pour la gravure, sinon on ne voyait rien)
 
 Il y a deux fichiers SVG : un pour le dessus et les pièces mobiles, et un en contreplaqué plus fin pour le fond. 
 
