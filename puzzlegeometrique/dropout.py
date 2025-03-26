@@ -59,10 +59,11 @@ if __name__=="__main__":
     
     image=debut(c=TAILLE)
     # les quatre trous de vis
-    image.write(cercle(ep+cote/2,ep/2,ep/5))
-    image.write(cercle(ep+3.5*cote,ep/2,ep/5))
-    image.write(cercle(ep+cote/2,3.5*cote+ep/2,ep/5))
-    image.write(cercle(ep+3.5*cote,3.5*cote+ep/2,ep/5))
+    trou=(ep/5)/1.21
+    image.write(cercle(ep+cote/2,ep/2,trou))
+    image.write(cercle(ep+3.5*cote,ep/2,trou))
+    image.write(cercle(ep+cote/2,3.5*cote+ep/2,trou))
+    image.write(cercle(ep+3.5*cote,3.5*cote+ep/2,trou))
     # Le dessus en plexi
     image.write(rectangle(largeur=4*cote+2*ep,hauteur=3*cote+2*ep,rx=rx,ry=ry))
     image.write(cercle(ep+cote/2,ep+1.5*cote,cote/2))
@@ -70,10 +71,10 @@ if __name__=="__main__":
     decalx=4*cote+2*ep+5
     #bord exterieur (bords arrondis)
     image.write(rectangle(largeur=4*cote+2*ep,hauteur=3*cote+2*ep,rx=rx,ry=ry))
-    image.write(cercle(ep+cote/2,ep/2,ep/5))
-    image.write(cercle(ep+3.5*cote,ep/2,ep/5))
-    image.write(cercle(ep+cote/2,3.5*cote+ep/2,ep/5))
-    image.write(cercle(ep+3.5*cote,3.5*cote+ep/2,ep/5))
+    image.write(cercle(ep+cote/2,ep/2,trou))
+    image.write(cercle(ep+3.5*cote,ep/2,trou))
+    image.write(cercle(ep+cote/2,3.5*cote+ep/2,trou))
+    image.write(cercle(ep+3.5*cote,3.5*cote+ep/2,trou))
     # rectangle interieur (bords droits)
     decalx+=ep
     decaly=ep
@@ -86,10 +87,10 @@ if __name__=="__main__":
     # le fond
     decalx=2*(4*cote+2*ep+5)
     decaly=0
-    image.write(cercle(ep+cote/2,ep/2,ep/5))
-    image.write(cercle(ep+3.5*cote,ep/2,ep/5))
-    image.write(cercle(ep+cote/2,3.5*cote+ep/2,ep/5))
-    image.write(cercle(ep+3.5*cote,3.5*cote+ep/2,ep/5))
+    image.write(cercle(ep+cote/2,ep/2,trou))
+    image.write(cercle(ep+3.5*cote,ep/2,trou))
+    image.write(cercle(ep+cote/2,3.5*cote+ep/2,trou))
+    image.write(cercle(ep+3.5*cote,3.5*cote+ep/2,trou))
     image.write(rectangle(largeur=4*cote+2*ep,hauteur=3*cote+2*ep,rx=rx,ry=ry))
     # le cercle au fond
     image.write(cercle(ep+cote/2+3*cote,ep+1.5*cote,cote/2))
