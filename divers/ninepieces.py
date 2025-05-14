@@ -96,6 +96,12 @@ if __name__=="__main__":
     image.write(ligne((3*cote,6*cote),(3*cote,5*cote)))
     image.write(ligne((4*cote,5*cote),(4*cote,3*cote)))
     image.write(arc4(3*cote,3*cote))
+    image.write(ligne((3*cote,3*cote),(3*cote,1*cote)))
+    image.write(ligne((2*cote,1*cote),(3*cote,1*cote)))
+    image.write(ligne((3*cote,3*cote),(4*cote,3*cote)))
+    image.write(ligne((4*cote,3*cote),(4*cote,4*cote)))
+    image.write(ligne((4*cote,4*cote),(5*cote,4*cote)))
+    
     fin(image)
 
     

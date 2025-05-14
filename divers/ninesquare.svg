@@ -22,4 +22,9 @@
 <line x1="225" y1="275" x2="225" y2="175" stroke="blue"   transform="" />
 <path d=" M 175 175 
  a 50 50 0 0 1 50 50" fill="none" stroke="blue"/>
+<line x1="175" y1="175" x2="175" y2="75" stroke="blue"   transform="" />
+<line x1="125" y1="75" x2="175" y2="75" stroke="blue"   transform="" />
+<line x1="175" y1="175" x2="225" y2="175" stroke="blue"   transform="" />
+<line x1="225" y1="175" x2="225" y2="225" stroke="blue"   transform="" />
+<line x1="225" y1="225" x2="275" y2="225" stroke="blue"   transform="" />
 </svg>
