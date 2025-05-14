@@ -1,6 +1,25 @@
 <svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
 <rect x="0" y="0" width="500" height="350" rx ="20" ry="20" fill="none" stroke="lime" transform=""/>
 <rect x="25" y="25" width="450" height="300" rx ="0" ry="0" fill="none" stroke="blue" transform=""/>
-<line x1="25" y1="25" x2="75" y2="25" stroke="blue"   transform="" />
-<a 50 50 0 0 50 50 fill="none" stroke="blue"/>
+<path d=" M 75 25 
+ a 50 50 0 0 0 50 50" fill="none" stroke="blue"/>
+<path d=" M 75 25 
+ a 50 50 0 0 1 50 -50" fill="none" stroke="red"/>
+<path d=" M 75 25 
+ a 50 50 0 0 0 50 -50" fill="none" stroke="lime"/>
+<path d=" M 75 25 
+ a 50 50 0 0 1 50 50" fill="none" stroke="orange"/>
+<line x1="125" y1="75" x2="125" y2="275" stroke="blue"   transform="" />
+<path d=" M 75 175 
+ a 50 50 0 0 0 50 -50" fill="none" stroke="blue"/>
+<path d=" M 25 225 
+ a 50 50 0 0 0 50 -50" fill="none" stroke="blue"/>
+<line x1="75" y1="175" x2="125" y2="175" stroke="blue"   transform="" />
+<path d=" M 125 275 
+ a 50 50 0 0 1 50 50" fill="none" stroke="blue"/>
+<line x1="125" y1="275" x2="225" y2="275" stroke="blue"   transform="" />
+<line x1="175" y1="325" x2="175" y2="275" stroke="blue"   transform="" />
+<line x1="225" y1="275" x2="225" y2="175" stroke="blue"   transform="" />
+<path d=" M 175 175 
+ a 50 50 0 0 1 50 50" fill="none" stroke="blue"/>
 </svg>

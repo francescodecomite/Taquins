@@ -15,9 +15,7 @@ decalx=0 # decalage du dessin pour tenir dans la feuille
 decaly=0
 #Dimensions de la boite.
 
-# Entête du fichier SVG. La taille fixée produit un document carré. Pour obtenir le cadrage dans une feuille A4, le plus simple est de le faire
-# à l'intérieur d'Inkscape (FIchiers>Propriétés du document)
-
+# Entête du fichier SVG.
 def debut(c=TAILLE):
     entete="<svg viewBox=\"0 0 "+str(2*c)+" "+str(2*c)+"\" xmlns=\"http://www.w3.org/2000/svg\">\n"
     pied="</svg>\n"
@@ -49,11 +47,29 @@ def equilateral(c=TAILLE,transform=""):
 def cercle(cx,cy,rayon,couleur="blue"):
     return "<circle cx=\""+str(cx+decalx)+"\" cy=\""+str(cy+decaly)+"\"  r=\""+str(rayon)+"\"  fill=\"none\" stroke=\""+couleur+"\"/>\n"
 
-def arc1(couleur="blue"):   
-    return "a "+str(cote)+" "+str(cote)+" 0,0 "+str(cote)+" "+str(cote)+" fill=\"none\" stroke=\""+couleur+"\"/>\n"
+def arc1(depx,depy,couleur="blue"):   
+    return "<path d=\" M "+str(depx+decalx)+" "+str(depy+decaly)+" \n a "+str(cote)+" "+str(cote)+" 0 0 0 "+str(cote)+" "+str(cote)+"\" fill=\"none\" stroke=\""+couleur+"\"/>\n"
+
+def arc2(depx,depy,couleur="blue"):   
+    return "<path d=\" M "+str(depx+decalx)+" "+str(depy+decaly)+" \n a "+str(cote)+" "+str(cote)+" 0 0 1 "+str(cote)+" "+str(-cote)+"\" fill=\"none\" stroke=\""+couleur+"\"/>\n"
+
+def arc3(depx,depy,couleur="blue"):   
+    return "<path d=\" M "+str(depx+decalx)+" "+str(depy+decaly)+" \n a "+str(cote)+" "+str(cote)+" 0 0 0 "+str(cote)+" "+str(-cote)+"\" fill=\"none\" stroke=\""+couleur+"\"/>\n"
+
+def arc4(depx,depy,couleur="blue"):   
+    return "<path d=\" M "+str(depx+decalx)+" "+str(depy+decaly)+" \n a "+str(cote)+" "+str(cote)+" 0 0 1 "+str(cote)+" "+str(cote)+"\" fill=\"none\" stroke=\""+couleur+"\"/>\n"
 
 
-
+"""
+ <path
+    d=" M 75 25
+	a 50 50 0 0 0 50 -50
+      "
+    stroke="blue"
+    fill="none"
+    stroke-width="1"
+    fill-opacity="0.5" />
+"""
 
 if __name__=="__main__":
   
@@ -67,10 +83,19 @@ if __name__=="__main__":
     decaly=ep
     image.write(rectangle(largeur=9*cote,hauteur=6*cote,rx=0,ry=0,couleur="blue"))
     # les lignes de découpe des pièces internes mobiles
-    image.write(ligne((0,0),(cote,0)))
-    image.write(arc1())
-    
-   
+    image.write(arc1(50,0))
+    image.write(arc2(50,0,"red"))
+    image.write(arc3(50,0,"lime"))
+    image.write(arc4(50,0,"orange"))
+    image.write(ligne((2*cote,1*cote),(2*cote,5*cote)))
+    image.write(arc3(cote,3*cote))
+    image.write(arc3(0,4*cote))
+    image.write(ligne((cote,3*cote),(2*cote,3*cote)))
+    image.write(arc4(2*cote,5*cote))
+    image.write(ligne((2*cote,5*cote),(4*cote,5*cote)))
+    image.write(ligne((3*cote,6*cote),(3*cote,5*cote)))
+    image.write(ligne((4*cote,5*cote),(4*cote,3*cote)))
+    image.write(arc4(3*cote,3*cote))
     fin(image)
 
     
