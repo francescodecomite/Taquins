@@ -76,17 +76,35 @@ if __name__=="__main__":
     
     image=debut(c=TAILLE)
     #bord exterieur (bords arrondis)
-    image.write(rectangle(largeur=9*cote+2*ep,hauteur=6*cote+2*ep,rx=rx,ry=ry))
-   
+    decalx=-3*cote
+    image.write(rectangle(largeur=12*cote+2*ep,hauteur=6*cote+2*ep,rx=rx,ry=ry))
+    decalx=0*cote
+
+    # L'emplacement pour ranger la pièce en trop
+    decaly=1.5*cote+ep
+    decalx=-2.25*cote
+    image.write(ligne((0*cote,0*cote),(0*cote,3*cote)))
+    image.write(ligne((0*cote,0*cote),(2*cote,0*cote)))
+    image.write(ligne((0*cote,3*cote),(2*cote,3*cote)))
+    image.write(ligne((2*cote,3*cote),(2*cote,0*cote)))
+    image.write(arc4(cote,0))
+    decalx=0
+    decaly=0
     # rectangle interieur (bords droits)
     decalx+=ep
     decaly=ep
     image.write(rectangle(largeur=9*cote,hauteur=6*cote,rx=0,ry=0,couleur="blue"))
+
+   
+
+    
     # les lignes de découpe des pièces internes mobiles
     image.write(arc1(50,0))
+    """
     image.write(arc2(50,0,"red"))
     image.write(arc3(50,0,"lime"))
     image.write(arc4(50,0,"orange"))
+    """
     image.write(ligne((2*cote,1*cote),(2*cote,5*cote)))
     image.write(arc3(cote,3*cote))
     image.write(arc3(0,4*cote))
@@ -101,7 +119,25 @@ if __name__=="__main__":
     image.write(ligne((3*cote,3*cote),(4*cote,3*cote)))
     image.write(ligne((4*cote,3*cote),(4*cote,4*cote)))
     image.write(ligne((4*cote,4*cote),(5*cote,4*cote)))
-    
+    image.write(ligne((5*cote,4*cote),(5*cote,3*cote)))
+    image.write(ligne((5*cote,3*cote),(6*cote,3*cote)))
+    image.write(ligne((6*cote,3*cote),(6*cote,1*cote)))
+    image.write(ligne((6*cote,1*cote),(5*cote,1*cote)))
+    image.write(arc2(4*cote,2*cote))
+    image.write(arc2(3*cote,3*cote))
+    image.write(arc1(4*cote,0*cote))
+    image.write(ligne((6*cote,2*cote),(7*cote,2*cote)))
+    image.write(arc2(7*cote,2*cote))
+    image.write(ligne((8*cote,1*cote),(9*cote,1*cote)))
+    image.write(ligne((7*cote,2*cote),(7*cote,3*cote)))
+    image.write(ligne((7*cote,3*cote),(6*cote,3*cote)))
+    image.write(arc1(6*cote,3*cote))
+    image.write(ligne((7*cote,4*cote),(8*cote,4*cote)))
+    image.write(arc2(8*cote,4*cote))
+    image.write(ligne((7*cote,4*cote),(7*cote,5*cote)))
+    image.write(arc2(6*cote,6*cote))
+    image.write(ligne((5*cote,4*cote),(7*cote,4*cote)))
+    image.write(arc2(4*cote,5*cote))
     fin(image)
 
     
