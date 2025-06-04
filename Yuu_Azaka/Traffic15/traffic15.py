@@ -112,7 +112,7 @@ if __name__=="__main__":
     """
     # dimensions paramétrables des divers objets
     # Largeur du corps des flèches
-    largeurFleche=cote/3.5
+    largeurFleche=cote/5
     longueurFleche=5*cote/12
     # centrage de la hampe de la flèche
     u=(cote/2)-2*largeurFleche
@@ -271,7 +271,18 @@ if __name__=="__main__":
     image.write(s)
     s="<path d=\" M  "+str(decalx+0*cote)+ " "+str(1*cote+decaly+petitRayon)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 1 "+ str(petitRayon)+" "+str(-petitRayon)+ "\" stroke=\"blue\"  fill=\"none\" />\n"
     image.write(s)
-   
+
+    decalx=ep
+    decaly=ep
+    
+    # Les corps de flèche horizontaux
+    image.write(ligne((cote-longueurFleche,largeurFleche),(cote,largeurFleche)))
+    image.write(ligne((cote-longueurFleche,2*largeurFleche),(cote,2*largeurFleche)))
+    image.write(ligne((cote-longueurFleche,largeurFleche),(cote-longueurFleche,2*largeurFleche)))
+    decalx=decalx+cote+longueurFleche
+    image.write(ligne((cote-longueurFleche,largeurFleche),(cote,largeurFleche)))
+    image.write(ligne((cote-longueurFleche,2*largeurFleche),(cote,2*largeurFleche)))
+    image.write(ligne((cote,largeurFleche),(cote,2*largeurFleche)))
     
     """
     # les lignes de découpe des pièces internes mobiles

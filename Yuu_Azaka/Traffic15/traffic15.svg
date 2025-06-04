@@ -12,15 +12,15 @@
 <!-- Pièce en haut à gauche / -->
 <!-- Pièce en haut à gauche ligne du bas/ -->
 <!-- Pièce en haut à gauche la hampe de flèche tordue/ -->
-<line x1="42.85714285714286" y1="75" x2="42.85714285714286" y2="59.5" stroke="blue"   transform="" />
-<line x1="57.142857142857146" y1="75" x2="57.142857142857146" y2="51.25213901157677" stroke="blue"   transform="" />
-<path d=" M  42.85714285714286 59.5 a 3 3 1 0 0 -3 -3" stroke="blue"  fill="none" />
-<path d=" M  57.142857142857146 51.25213901157677 a 3 3 1 0 0 -3 -3" stroke="blue"  fill="none" />
+<line x1="45.0" y1="75" x2="45.0" y2="59.5" stroke="blue"   transform="" />
+<line x1="55.0" y1="75" x2="55.0" y2="53.726497308103745" stroke="blue"   transform="" />
+<path d=" M  45.0 59.5 a 3 3 1 0 0 -3 -3" stroke="blue"  fill="none" />
+<path d=" M  55.0 53.726497308103745 a 3 3 1 0 0 -3 -3" stroke="blue"  fill="none" />
 <!-- Pièce en haut à gauche le grand coin arrondi à gauche/ -->
 <path d=" M  25 50.0 a 25.0 25.0 0 0 1 25.0 -25.0" stroke="blue"  fill="none" />
 <!-- Pièce en haut au milieu/ -->
-<line x1="92.85714285714286" y1="25" x2="92.85714285714286" y2="45.74786098842323" stroke="blue"   transform="" />
-<line x1="107.14285714285714" y1="25" x2="107.14285714285714" y2="37.5" stroke="blue"   transform="" />
+<line x1="95.0" y1="25" x2="95.0" y2="43.273502691896255" stroke="blue"   transform="" />
+<line x1="105.0" y1="25" x2="105.0" y2="37.5" stroke="blue"   transform="" />
 <path d=" M  25 100.0 a 25.0 25.0 0 0 1 25.0 -25.0" stroke="blue"  fill="none" />
 <line x1="75" y1="25" x2="75" y2="175" stroke="blue"   transform="" />
 <line x1="25" y1="75" x2="175" y2="75" stroke="blue"   transform="" />
@@ -61,4 +61,10 @@
 <path d=" M  75 28 a 3 3 0 0 1 3 -3" stroke="blue"  fill="none" />
 <path d=" M  25 128 a 3 3 0 0 1 3 -3" stroke="blue"  fill="none" />
 <path d=" M  25 78 a 3 3 0 0 1 3 -3" stroke="blue"  fill="none" />
+<line x1="54.16666666666667" y1="35.0" x2="75" y2="35.0" stroke="blue"   transform="" />
+<line x1="54.16666666666667" y1="45.0" x2="75" y2="45.0" stroke="blue"   transform="" />
+<line x1="54.16666666666667" y1="35.0" x2="54.16666666666667" y2="45.0" stroke="blue"   transform="" />
+<line x1="125.0" y1="35.0" x2="145.83333333333331" y2="35.0" stroke="blue"   transform="" />
+<line x1="125.0" y1="45.0" x2="145.83333333333331" y2="45.0" stroke="blue"   transform="" />
+<line x1="145.83333333333331" y1="35.0" x2="145.83333333333331" y2="45.0" stroke="blue"   transform="" />
 </svg>
