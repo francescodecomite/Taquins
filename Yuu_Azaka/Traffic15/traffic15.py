@@ -326,8 +326,21 @@ if __name__=="__main__":
     # A gauche haut
     image.write(ligne((0.5*cote,2*cote),(0.5*cote+largeurPointe/2,2*cote-largeurPointeSin)))
     image.write(ligne((0.5*cote+largeurPointe,2*cote),(0.5*cote+largeurPointe/2,2*cote-largeurPointeSin)))
-
+    # La plus basse a droite
+    image.write(ligne((2*cote,2.5*cote-largeurPointe/2),(2*cote+largeurPointeSin,2.5*cote)))
+    image.write(ligne((2*cote+largeurPointeSin,2.5*cote),(2*cote,2.5*cote+largeurPointe/2)))
+    # Les petites fleches (il y en a trois)
+    petiteLongueur=cote/4
+    ecart=largeurPointe-largeurFleche
+    image.write(ligne((2.5*cote-largeurFleche/2,2*cote),(2.5*cote-largeurFleche/2,2*cote-petiteLongueur)))
+    image.write(ligne((2.5*cote+largeurFleche/2,2*cote),(2.5*cote+largeurFleche/2,2*cote-petiteLongueur)))
+    image.write(ligne((2.5*cote-largeurFleche/2,2*cote-petiteLongueur),(2.5*cote-largeurPointe/2,2*cote-petiteLongueur)))
+    image.write(ligne((2.5*cote-largeurPointe/2,2*cote-petiteLongueur),(2.5*cote,2*cote-petiteLongueur-largeurPointeSin)))
     
+    image.write(ligne((2.5*cote+largeurPointe/2,2*cote-petiteLongueur),(2.5*cote+largeurFleche/2,2*cote-petiteLongueur)))
+    image.write(ligne((2.5*cote,2*cote-petiteLongueur-largeurPointeSin),(2.5*cote+largeurPointe/2,2*cote-petiteLongueur)))
+   
+
     """
     # les lignes de découpe des pièces internes mobiles
     image.write(arc1(50,0))
