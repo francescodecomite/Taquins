@@ -42,7 +42,7 @@ def ligne(debut,fin,transform="",couleur="blue"):
 
 def equilateral(c=TAILLE,transform=""):
     hauteur=c*sqrt(3)/2
-    return "<polygon points=\"0 "+str(c)+" ,"+str(c/2)+" "+str(c-hauteur)+" , "+str(c)+" "+str(c)+"\" fill=\"none\" stroke=\"red\" transform="+transform+"/>\n"
+    return "<polygon points=\"0 "+str(c)+" ,"+str(c/2)+" "+str(c-hauteur)+" , "+str(c)+" "+str(c)+"\" fill=\"none\" stroke=\"blue\" transform="+transform+"/>\n"
 
 def cercle(cx,cy,rayon,couleur="blue"):
     return "<circle cx=\""+str(cx+decalx)+"\" cy=\""+str(cy+decaly)+"\"  r=\""+str(rayon)+"\"  fill=\"none\" stroke=\""+couleur+"\"/>\n"
@@ -176,96 +176,108 @@ if __name__=="__main__":
     
     # debut coherent
     
-    s="<path d=\" M  "+str(decalx)+ " "+str(2*cote+decaly-petitRayon)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 0 "+ str(petitRayon)+" "+str(petitRayon)+ "\" stroke=\"yellow\"  fill=\"none\" />\n"
+    s="<path d=\" M  "+str(decalx)+ " "+str(2*cote+decaly-petitRayon)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 0 "+ str(petitRayon)+" "+str(petitRayon)+ "\" stroke=\"blue\"  fill=\"none\" />\n"
     image.write(s)
-    s="<path d=\" M  "+str(cote+decalx)+ " "+str(2*cote+decaly-petitRayon)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 0 "+ str(petitRayon)+" "+str(petitRayon)+ "\" stroke=\"yellow\"  fill=\"none\" />\n"
+    s="<path d=\" M  "+str(cote+decalx)+ " "+str(2*cote+decaly-petitRayon)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 0 "+ str(petitRayon)+" "+str(petitRayon)+ "\" stroke=\"blue\"  fill=\"none\" />\n"
     image.write(s)
-    s="<path d=\" M  "+str(2*cote+decalx)+ " "+str(2*cote+decaly-petitRayon)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 0 "+ str(petitRayon)+" "+str(petitRayon)+ "\" stroke=\"yellow\"  fill=\"none\" />\n"
+    s="<path d=\" M  "+str(2*cote+decalx)+ " "+str(2*cote+decaly-petitRayon)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 0 "+ str(petitRayon)+" "+str(petitRayon)+ "\" stroke=\"blue\"  fill=\"none\" />\n"
     image.write(s)
     
  
-    s="<path d=\" M  "+str(decalx)+ " "+str(cote+decaly-petitRayon)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 0 "+ str(petitRayon)+" "+str(petitRayon)+ "\" stroke=\"yellow\"  fill=\"none\" />\n"
+    s="<path d=\" M  "+str(decalx)+ " "+str(cote+decaly-petitRayon)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 0 "+ str(petitRayon)+" "+str(petitRayon)+ "\" stroke=\"blue\"  fill=\"none\" />\n"
     image.write(s)
-    s="<path d=\" M  "+str(cote+decalx)+ " "+str(cote+decaly-petitRayon)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 0 "+ str(petitRayon)+" "+str(petitRayon)+ "\" stroke=\"yellow\"  fill=\"none\" />\n"
+    s="<path d=\" M  "+str(cote+decalx)+ " "+str(cote+decaly-petitRayon)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 0 "+ str(petitRayon)+" "+str(petitRayon)+ "\" stroke=\"blue\"  fill=\"none\" />\n"
     image.write(s)
-    s="<path d=\" M  "+str(2*cote+decalx)+ " "+str(cote+decaly-petitRayon)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 0 "+ str(petitRayon)+" "+str(petitRayon)+ "\" stroke=\"yellow\"  fill=\"none\" />\n"
-    image.write(s)
-
-    s="<path d=\" M  "+str(cote+decalx)+ " "+str(3*cote+decaly-petitRayon)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 0 "+ str(petitRayon)+" "+str(petitRayon)+ "\" stroke=\"yellow\"  fill=\"none\" />\n"
-    image.write(s)
-    s="<path d=\" M  "+str(2*cote+decalx)+ " "+str(3*cote+decaly-petitRayon)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 0 "+ str(petitRayon)+" "+str(petitRayon)+ "\" stroke=\"yellow\"  fill=\"none\" />\n"
+    s="<path d=\" M  "+str(2*cote+decalx)+ " "+str(cote+decaly-petitRayon)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 0 "+ str(petitRayon)+" "+str(petitRayon)+ "\" stroke=\"blue\"  fill=\"none\" />\n"
     image.write(s)
 
-    
-    
-    s="<path d=\" M  "+str(decalx+cote-petitRayon)+ " "+str(cote+decaly)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 0 "+ str(petitRayon)+" "+str(-petitRayon)+ "\" stroke=\"yellow\"  fill=\"none\" />\n"
+    s="<path d=\" M  "+str(cote+decalx)+ " "+str(3*cote+decaly-petitRayon)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 0 "+ str(petitRayon)+" "+str(petitRayon)+ "\" stroke=\"blue\"  fill=\"none\" />\n"
     image.write(s)
-    s="<path d=\" M  "+str(decalx+cote-petitRayon)+ " "+str(2*cote+decaly)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 0 "+ str(petitRayon)+" "+str(-petitRayon)+ "\" stroke=\"yellow\"  fill=\"none\" />\n"
+    s="<path d=\" M  "+str(2*cote+decalx)+ " "+str(3*cote+decaly-petitRayon)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 0 "+ str(petitRayon)+" "+str(petitRayon)+ "\" stroke=\"blue\"  fill=\"none\" />\n"
     image.write(s)
-    s="<path d=\" M  "+str(decalx+cote-petitRayon)+ " "+str(3*cote+decaly)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 0 "+ str(petitRayon)+" "+str(-petitRayon)+ "\" stroke=\"yellow\"  fill=\"none\" />\n"
-    image.write(s)
-
 
     
-    s="<path d=\" M  "+str(decalx+2*cote-petitRayon)+ " "+str(cote+decaly)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 0 "+ str(petitRayon)+" "+str(-petitRayon)+ "\" stroke=\"yellow\"  fill=\"none\" />\n"
+    
+    s="<path d=\" M  "+str(decalx+cote-petitRayon)+ " "+str(cote+decaly)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 0 "+ str(petitRayon)+" "+str(-petitRayon)+ "\" stroke=\"blue\"  fill=\"none\" />\n"
     image.write(s)
-    s="<path d=\" M  "+str(decalx+2*cote-petitRayon)+ " "+str(2*cote+decaly)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 0 "+ str(petitRayon)+" "+str(-petitRayon)+ "\" stroke=\"yellow\"  fill=\"none\" />\n"
+    s="<path d=\" M  "+str(decalx+cote-petitRayon)+ " "+str(2*cote+decaly)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 0 "+ str(petitRayon)+" "+str(-petitRayon)+ "\" stroke=\"blue\"  fill=\"none\" />\n"
     image.write(s)
-    s="<path d=\" M  "+str(decalx+2*cote-petitRayon)+ " "+str(3*cote+decaly)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 0 "+ str(petitRayon)+" "+str(-petitRayon)+ "\" stroke=\"yellow\"  fill=\"none\" />\n"
+    s="<path d=\" M  "+str(decalx+cote-petitRayon)+ " "+str(3*cote+decaly)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 0 "+ str(petitRayon)+" "+str(-petitRayon)+ "\" stroke=\"blue\"  fill=\"none\" />\n"
     image.write(s)
 
-    s="<path d=\" M  "+str(decalx+3*cote-petitRayon)+ " "+str(cote+decaly)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 0 "+ str(petitRayon)+" "+str(-petitRayon)+ "\" stroke=\"yellow\"  fill=\"none\" />\n"
+
+    
+    s="<path d=\" M  "+str(decalx+2*cote-petitRayon)+ " "+str(cote+decaly)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 0 "+ str(petitRayon)+" "+str(-petitRayon)+ "\" stroke=\"blue\"  fill=\"none\" />\n"
     image.write(s)
-    s="<path d=\" M  "+str(decalx+3*cote-petitRayon)+ " "+str(2*cote+decaly)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 0 "+ str(petitRayon)+" "+str(-petitRayon)+ "\" stroke=\"yellow\"  fill=\"none\" />\n"
+    s="<path d=\" M  "+str(decalx+2*cote-petitRayon)+ " "+str(2*cote+decaly)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 0 "+ str(petitRayon)+" "+str(-petitRayon)+ "\" stroke=\"blue\"  fill=\"none\" />\n"
     image.write(s)
-    s="<path d=\" M  "+str(decalx+3*cote-petitRayon)+ " "+str(3*cote+decaly)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 0 "+ str(petitRayon)+" "+str(-petitRayon)+ "\" stroke=\"yellow\"  fill=\"none\" />\n"
+    s="<path d=\" M  "+str(decalx+2*cote-petitRayon)+ " "+str(3*cote+decaly)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 0 "+ str(petitRayon)+" "+str(-petitRayon)+ "\" stroke=\"blue\"  fill=\"none\" />\n"
+    image.write(s)
+
+    s="<path d=\" M  "+str(decalx+3*cote-petitRayon)+ " "+str(cote+decaly)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 0 "+ str(petitRayon)+" "+str(-petitRayon)+ "\" stroke=\"blue\"  fill=\"none\" />\n"
+    image.write(s)
+    s="<path d=\" M  "+str(decalx+3*cote-petitRayon)+ " "+str(2*cote+decaly)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 0 "+ str(petitRayon)+" "+str(-petitRayon)+ "\" stroke=\"blue\"  fill=\"none\" />\n"
+    image.write(s)
+    
+    s="<path d=\" M  "+str(decalx+3*cote-petitRayon)+ " "+str(3*cote+decaly)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 0 "+ str(petitRayon)+" "+str(-petitRayon)+ "\" stroke=\"blue\"  fill=\"none\" />\n"
     image.write(s)
     
     
-    s="<path d=\" M  "+str(decalx+cote-petitRayon)+ " "+str(decaly)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 1 "+ str(petitRayon)+" "+str(petitRayon)+ "\" stroke=\"yellow\"  fill=\"none\" />\n"
+    s="<path d=\" M  "+str(decalx+cote-petitRayon)+ " "+str(decaly)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 1 "+ str(petitRayon)+" "+str(petitRayon)+ "\" stroke=\"blue\"  fill=\"none\" />\n"
     image.write(s)
-    s="<path d=\" M  "+str(decalx+cote-petitRayon)+ " "+str(cote+decaly)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 1 "+ str(petitRayon)+" "+str(petitRayon)+ "\" stroke=\"yellow\"  fill=\"none\" />\n"
+    s="<path d=\" M  "+str(decalx+cote-petitRayon)+ " "+str(cote+decaly)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 1 "+ str(petitRayon)+" "+str(petitRayon)+ "\" stroke=\"blue\"  fill=\"none\" />\n"
     image.write(s)
-    s="<path d=\" M  "+str(decalx+cote-petitRayon)+ " "+str(2*cote+decaly)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 1 "+ str(petitRayon)+" "+str(petitRayon)+ "\" stroke=\"yellow\"  fill=\"none\" />\n"
-    image.write(s)
-
-    s="<path d=\" M  "+str(decalx+2*cote-petitRayon)+ " "+str(decaly)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 1 "+ str(petitRayon)+" "+str(petitRayon)+ "\" stroke=\"yellow\"  fill=\"none\" />\n"
-    image.write(s)
-    s="<path d=\" M  "+str(decalx+2*cote-petitRayon)+ " "+str(cote+decaly)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 1 "+ str(petitRayon)+" "+str(petitRayon)+ "\" stroke=\"yellow\"  fill=\"none\" />\n"
-    image.write(s)
-    s="<path d=\" M  "+str(decalx+2*cote-petitRayon)+ " "+str(2*cote+decaly)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 1 "+ str(petitRayon)+" "+str(petitRayon)+ "\" stroke=\"yellow\"  fill=\"none\" />\n"
+    s="<path d=\" M  "+str(decalx+cote-petitRayon)+ " "+str(2*cote+decaly)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 1 "+ str(petitRayon)+" "+str(petitRayon)+ "\" stroke=\"blue\"  fill=\"none\" />\n"
     image.write(s)
 
-    s="<path d=\" M  "+str(decalx+3*cote-petitRayon)+ " "+str(decaly)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 1 "+ str(petitRayon)+" "+str(petitRayon)+ "\" stroke=\"yellow\"  fill=\"none\" />\n"
+    s="<path d=\" M  "+str(decalx+2*cote-petitRayon)+ " "+str(decaly)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 1 "+ str(petitRayon)+" "+str(petitRayon)+ "\" stroke=\"blue\"  fill=\"none\" />\n"
     image.write(s)
-    s="<path d=\" M  "+str(decalx+3*cote-petitRayon)+ " "+str(cote+decaly)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 1 "+ str(petitRayon)+" "+str(petitRayon)+ "\" stroke=\"yellow\"  fill=\"none\" />\n"
+    s="<path d=\" M  "+str(decalx+2*cote-petitRayon)+ " "+str(cote+decaly)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 1 "+ str(petitRayon)+" "+str(petitRayon)+ "\" stroke=\"blue\"  fill=\"none\" />\n"
     image.write(s)
-    s="<path d=\" M  "+str(decalx+3*cote-petitRayon)+ " "+str(2*cote+decaly)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 1 "+ str(petitRayon)+" "+str(petitRayon)+ "\" stroke=\"yellow\"  fill=\"none\" />\n"
+    s="<path d=\" M  "+str(decalx+2*cote-petitRayon)+ " "+str(2*cote+decaly)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 1 "+ str(petitRayon)+" "+str(petitRayon)+ "\" stroke=\"blue\"  fill=\"none\" />\n"
+    image.write(s)
+
+    s="<path d=\" M  "+str(decalx+3*cote-petitRayon)+ " "+str(cote+decaly)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 1 "+ str(petitRayon)+" "+str(petitRayon)+ "\" stroke=\"blue\"  fill=\"none\" />\n"
+    image.write(s)
+    s="<path d=\" M  "+str(decalx+3*cote-petitRayon)+ " "+str(2*cote+decaly)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 1 "+ str(petitRayon)+" "+str(petitRayon)+ "\" stroke=\"blue\"  fill=\"none\" />\n"
     image.write(s)
 
     
    
-    s="<path d=\" M  "+str(decalx+2*cote-petitRayon)+ " "+str(1*cote+decaly)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 1 "+ str(petitRayon)+" "+str(petitRayon)+ "\" stroke=\"yellox\"  fill=\"none\" />\n"
+    s="<path d=\" M  "+str(decalx+2*cote-petitRayon)+ " "+str(1*cote+decaly)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 1 "+ str(petitRayon)+" "+str(petitRayon)+ "\" stroke=\"blue\"  fill=\"none\" />\n"
     image.write(s)
-    s="<path d=\" M  "+str(decalx+2*cote-petitRayon)+ " "+str(2*cote+decaly)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 1 "+ str(petitRayon)+" "+str(petitRayon)+ "\" stroke=\"yellow\"  fill=\"none\" />\n"
+    s="<path d=\" M  "+str(decalx+2*cote-petitRayon)+ " "+str(2*cote+decaly)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 1 "+ str(petitRayon)+" "+str(petitRayon)+ "\" stroke=\"blue\"  fill=\"none\" />\n"
     image.write(s)
     
    
         
     
-    
-    
+    s="<path d=\" M  "+str(decalx+2*cote)+ " "+str(2*cote+decaly+petitRayon)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 1 "+ str(petitRayon)+" "+str(-petitRayon)+ "\" stroke=\"blue\"  fill=\"none\" />\n"
+    image.write(s)
+    s="<path d=\" M  "+str(decalx+2*cote)+ " "+str(1*cote+decaly+petitRayon)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 1 "+ str(petitRayon)+" "+str(-petitRayon)+ "\" stroke=\"blue\"  fill=\"none\" />\n"
+    image.write(s)
+    s="<path d=\" M  "+str(decalx+2*cote)+ " "+str(0*cote+decaly+petitRayon)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 1 "+ str(petitRayon)+" "+str(-petitRayon)+ "\" stroke=\"blue\"  fill=\"none\" />\n"
+    image.write(s)
    
-    
+    s="<path d=\" M  "+str(decalx+1*cote)+ " "+str(2*cote+decaly+petitRayon)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 1 "+ str(petitRayon)+" "+str(-petitRayon)+ "\" stroke=\"blue\"  fill=\"none\" />\n"
+    image.write(s)
+    s="<path d=\" M  "+str(decalx+1*cote)+ " "+str(1*cote+decaly+petitRayon)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 1 "+ str(petitRayon)+" "+str(-petitRayon)+ "\" stroke=\"blue\"  fill=\"none\" />\n"
+    image.write(s)
+    s="<path d=\" M  "+str(decalx+1*cote)+ " "+str(0*cote+decaly+petitRayon)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 1 "+ str(petitRayon)+" "+str(-petitRayon)+ "\" stroke=\"blue\"  fill=\"none\" />\n"
+    image.write(s)
+   
 
-
-
+    s="<path d=\" M  "+str(decalx+0*cote)+ " "+str(2*cote+decaly+petitRayon)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 1 "+ str(petitRayon)+" "+str(-petitRayon)+ "\" stroke=\"blue\"  fill=\"none\" />\n"
+    image.write(s)
+    s="<path d=\" M  "+str(decalx+0*cote)+ " "+str(1*cote+decaly+petitRayon)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 1 "+ str(petitRayon)+" "+str(-petitRayon)+ "\" stroke=\"blue\"  fill=\"none\" />\n"
+    image.write(s)
+   
     
     """
     # les lignes de découpe des pièces internes mobiles
     image.write(arc1(50,0))
 
-    #image.write(arc2(50,0,"red"))
+    #image.write(arc2(50,0,"blue"))
     #image.write(arc3(50,0,"lime"))
     #image.write(arc4(50,0,"orange"))
     
