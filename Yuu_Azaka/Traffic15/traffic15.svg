@@ -38,9 +38,9 @@
      inkscape:window-height="1046"
      id="namedview11363"
      showgrid="false"
-     inkscape:zoom="2.6700352"
-     inkscape:cx="171.64225"
-     inkscape:cy="857.72729"
+     inkscape:zoom="1.3350176"
+     inkscape:cx="184.15321"
+     inkscape:cy="818.08986"
      inkscape:window-x="-11"
      inkscape:window-y="-11"
      inkscape:window-maximized="1"
@@ -755,4 +755,24 @@
      id="line11173-3"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ccsccscc" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;line-height:1.25;font-family:'Myanmar Text';-inkscape-font-specification:'Myanmar Text';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+     x="15.128414"
+     y="189.01295"
+     id="text11400"><tspan
+       sodipodi:role="line"
+       id="tspan11398"
+       x="15.128414"
+       y="189.01295">Traffic 15</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;line-height:1.25;font-family:'Myanmar Text';-inkscape-font-specification:'Myanmar Text';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+     x="122.64425"
+     y="188.96999"
+     id="text11404"><tspan
+       sodipodi:role="line"
+       id="tspan11402"
+       x="122.64425"
+       y="188.96999">Creator Yuu Azaka</tspan></text>
 </svg>
