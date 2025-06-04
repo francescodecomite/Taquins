@@ -275,7 +275,7 @@ if __name__=="__main__":
     decalx=ep
     decaly=ep
     
-    # Les corps de flèche horizontaux
+    # Les deux corps de flèche horizontaux
     image.write(ligne((cote-longueurFleche,largeurFleche),(cote,largeurFleche)))
     image.write(ligne((cote-longueurFleche,2*largeurFleche),(cote,2*largeurFleche)))
     image.write(ligne((cote-longueurFleche,largeurFleche),(cote-longueurFleche,2*largeurFleche)))
@@ -283,6 +283,26 @@ if __name__=="__main__":
     image.write(ligne((cote-longueurFleche,largeurFleche),(cote,largeurFleche)))
     image.write(ligne((cote-longueurFleche,2*largeurFleche),(cote,2*largeurFleche)))
     image.write(ligne((cote,largeurFleche),(cote,2*largeurFleche)))
+    decalx=ep
+    # les deux corps de flèche verticaux
+    image.write(ligne((3*cote-2*largeurFleche,cote-longueurFleche),(3*cote-2*largeurFleche,cote) ))
+    image.write(ligne((3*cote-largeurFleche,cote-longueurFleche),(3*cote-largeurFleche,cote) ))
+    image.write(ligne((3*cote-largeurFleche,cote-longueurFleche),(3*cote-2*largeurFleche,cote-longueurFleche) ))
+    decaly=decaly+2*cote
+    image.write(ligne((3*cote-2*largeurFleche,cote-longueurFleche),(3*cote-2*largeurFleche,cote) ))
+    image.write(ligne((3*cote-largeurFleche,cote-longueurFleche),(3*cote-largeurFleche,cote) ))
+    image.write(ligne((3*cote-largeurFleche,cote-longueurFleche),(3*cote-2*largeurFleche,cote-longueurFleche) ))
+    decaly=ep
+
+    decaly=decaly+3*cote-3*largeurFleche
+    decalx=decalx+longueurFleche
+    image.write(ligne((cote-longueurFleche,largeurFleche),(cote,largeurFleche)))
+    image.write(ligne((cote-longueurFleche,2*largeurFleche),(cote,2*largeurFleche)))
+    image.write(ligne((cote,largeurFleche),(cote,2*largeurFleche)))
+    decalx=ep
+    decaly=ep
+    
+
     
     """
     # les lignes de découpe des pièces internes mobiles
