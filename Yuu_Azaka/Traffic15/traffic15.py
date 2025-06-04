@@ -116,6 +116,10 @@ if __name__=="__main__":
     longueurFleche=5*cote/12
     # centrage de la hampe de la flèche
     u=(cote/2)-2*largeurFleche
+    largeurPointe=largeurFleche+2*u
+    theta=pi/6
+    largeurPointeCos=largeurPointe*cos(theta)
+    largeurPointeSin=largeurPointe*sin(theta)
     
    
     
@@ -301,7 +305,27 @@ if __name__=="__main__":
     image.write(ligne((cote,largeurFleche),(cote,2*largeurFleche)))
     decalx=ep
     decaly=ep
+
+    # les tetes de fleches en bord de carré
     
+    image.write(ligne((cote,cote/2-largeurPointe),(cote+largeurPointeSin,1.5*largeurFleche)))
+    image.write(ligne((cote,cote/2),(cote+largeurPointeSin,1.5*largeurFleche)))
+   
+    image.write(ligne((cote,cote+cote/2-largeurPointe),(cote+largeurPointeSin,cote+1.5*largeurFleche)))
+    image.write(ligne((cote,cote+cote/2),(cote+largeurPointeSin,cote+1.5*largeurFleche)))
+    # en bas a gauche
+    image.write(ligne((cote,2*cote+cote/2),(cote-largeurPointeSin,3*cote-1.5*largeurFleche)))
+    image.write(ligne((cote,2*cote+cote/2+largeurPointe),(cote-largeurPointeSin,3*cote-1.5*largeurFleche)))
+    # Les tetes toutes seules dirigées vers le bas
+    # A droite
+    image.write(ligne((2.5*cote-largeurPointe/2,2*cote),(2.5*cote,2*cote+largeurPointeSin)))
+    image.write(ligne((2.5*cote+largeurPointe/2,2*cote),(2.5*cote,2*cote+largeurPointeSin)))
+    # A gauche bas
+    image.write(ligne((0.5*cote,2*cote),(0.5*cote+largeurPointe/2,2*cote+largeurPointeSin)))
+    image.write(ligne((0.5*cote+largeurPointe,2*cote),(0.5*cote+largeurPointe/2,2*cote+largeurPointeSin)))
+    # A gauche haut
+    image.write(ligne((0.5*cote,2*cote),(0.5*cote+largeurPointe/2,2*cote-largeurPointeSin)))
+    image.write(ligne((0.5*cote+largeurPointe,2*cote),(0.5*cote+largeurPointe/2,2*cote-largeurPointeSin)))
 
     
     """
