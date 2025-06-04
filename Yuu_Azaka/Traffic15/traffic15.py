@@ -250,10 +250,7 @@ if __name__=="__main__":
     s="<path d=\" M  "+str(decalx+2*cote-petitRayon)+ " "+str(2*cote+decaly)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 1 "+ str(petitRayon)+" "+str(petitRayon)+ "\" stroke=\"yellow\"  fill=\"none\" />\n"
     image.write(s)
     
-    s="<path d=\" M  "+str(decalx)+ " "+str(cote+decaly-petitRayon)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 0 0 0 "+ str(petitRayon)+" "+str(petitRayon)+ "\" stroke=\"red\"  fill=\"none\" />\n"
-    image.write(s)
-    
-    
+   
         
     
     
