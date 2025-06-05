@@ -1,0 +1,116 @@
+<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+<!-- Les bords intérieurs et exterieurs / -->
+<rect x="0" y="0" width="200" height="200" rx ="20" ry="20" fill="none" stroke="lime" transform=""/>
+<line x1="25" y1="25" x2="150.0" y2="25" stroke="lime"   transform="" />
+<path d=" M 150.0 25 
+ a 25.0 25.0 0 0 1 25.0 25.0" fill="none" stroke="lime"/>
+<line x1="175" y1="50.0" x2="175" y2="175" stroke="lime"   transform="" />
+<line x1="175" y1="175" x2="50.0" y2="175" stroke="lime"   transform="" />
+<path d=" M 25 150.0 
+ a 25.0 25.0 0 0 0 25.0 25.0" fill="none" stroke="lime"/>
+<line x1="25" y1="150.0" x2="25" y2="25" stroke="lime"   transform="" />
+<!-- Pièce en haut à gauche / -->
+<!-- Pièce en haut à gauche ligne du bas/ -->
+<!-- Pièce en haut à gauche la hampe de flèche tordue/ -->
+<line x1="45.0" y1="75" x2="45.0" y2="59.5" stroke="blue"   transform="" />
+<line x1="55.0" y1="75" x2="55.0" y2="53.726497308103745" stroke="blue"   transform="" />
+<path d=" M  45.0 59.5 a 3 3 1 0 0 -3 -3" stroke="blue"  fill="none" />
+<path d=" M  55.0 53.726497308103745 a 3 3 1 0 0 -3 -3" stroke="blue"  fill="none" />
+<!-- Pièce en haut à gauche le grand coin arrondi à gauche/ -->
+<path d=" M  25 50.0 a 25.0 25.0 0 0 1 25.0 -25.0" stroke="blue"  fill="none" />
+<!-- Pièce en haut au milieu/ -->
+<line x1="95.0" y1="25" x2="95.0" y2="43.273502691896255" stroke="blue"   transform="" />
+<line x1="105.0" y1="25" x2="105.0" y2="37.5" stroke="blue"   transform="" />
+<path d=" M  25 100.0 a 25.0 25.0 0 0 1 25.0 -25.0" stroke="blue"  fill="none" />
+<line x1="75" y1="25" x2="75" y2="35.0" stroke="blue"   transform="" />
+<line x1="75" y1="45.0" x2="75" y2="85.0" stroke="blue"   transform="" />
+<line x1="75" y1="85.355" x2="75" y2="164.645" stroke="blue"   transform="" />
+<line x1="75" y1="174.645" x2="75" y2="175" stroke="blue"   transform="" />
+<line x1="125" y1="25" x2="125" y2="145.0" stroke="blue"   transform="" />
+<line x1="125" y1="175" x2="125" y2="155.0" stroke="blue"   transform="" />
+<line x1="25" y1="75" x2="175" y2="75" stroke="blue"   transform="" />
+<line x1="25" y1="125" x2="145.0" y2="125" stroke="blue"   transform="" />
+<line x1="175" y1="125" x2="155.0" y2="125" stroke="blue"   transform="" />
+<path d=" M  25 122 a 3 3 0 0 0 3 3" stroke="blue"  fill="none" />
+<path d=" M  75 122 a 3 3 0 0 0 3 3" stroke="blue"  fill="none" />
+<path d=" M  125 122 a 3 3 0 0 0 3 3" stroke="blue"  fill="none" />
+<path d=" M  25 72 a 3 3 0 0 0 3 3" stroke="blue"  fill="none" />
+<path d=" M  75 72 a 3 3 0 0 0 3 3" stroke="blue"  fill="none" />
+<path d=" M  125 72 a 3 3 0 0 0 3 3" stroke="blue"  fill="none" />
+<path d=" M  75 172 a 3 3 0 0 0 3 3" stroke="blue"  fill="none" />
+<path d=" M  125 172 a 3 3 0 0 0 3 3" stroke="blue"  fill="none" />
+<path d=" M  72 75 a 3 3 0 0 0 3 -3" stroke="blue"  fill="none" />
+<path d=" M  72 125 a 3 3 0 0 0 3 -3" stroke="blue"  fill="none" />
+<path d=" M  72 175 a 3 3 0 0 0 3 -3" stroke="blue"  fill="none" />
+<path d=" M  122 75 a 3 3 0 0 0 3 -3" stroke="blue"  fill="none" />
+<path d=" M  122 125 a 3 3 0 0 0 3 -3" stroke="blue"  fill="none" />
+<path d=" M  122 175 a 3 3 0 0 0 3 -3" stroke="blue"  fill="none" />
+<path d=" M  172 75 a 3 3 0 0 0 3 -3" stroke="blue"  fill="none" />
+<path d=" M  172 125 a 3 3 0 0 0 3 -3" stroke="blue"  fill="none" />
+<path d=" M  172 175 a 3 3 0 0 0 3 -3" stroke="blue"  fill="none" />
+<path d=" M  72 25 a 3 3 0 0 1 3 3" stroke="blue"  fill="none" />
+<path d=" M  72 75 a 3 3 0 0 1 3 3" stroke="blue"  fill="none" />
+<path d=" M  72 125 a 3 3 0 0 1 3 3" stroke="blue"  fill="none" />
+<path d=" M  122 25 a 3 3 0 0 1 3 3" stroke="blue"  fill="none" />
+<path d=" M  122 75 a 3 3 0 0 1 3 3" stroke="blue"  fill="none" />
+<path d=" M  122 125 a 3 3 0 0 1 3 3" stroke="blue"  fill="none" />
+<path d=" M  172 75 a 3 3 0 0 1 3 3" stroke="blue"  fill="none" />
+<path d=" M  172 125 a 3 3 0 0 1 3 3" stroke="blue"  fill="none" />
+<path d=" M  122 75 a 3 3 0 0 1 3 3" stroke="blue"  fill="none" />
+<path d=" M  122 125 a 3 3 0 0 1 3 3" stroke="blue"  fill="none" />
+<path d=" M  125 128 a 3 3 0 0 1 3 -3" stroke="blue"  fill="none" />
+<path d=" M  125 78 a 3 3 0 0 1 3 -3" stroke="blue"  fill="none" />
+<path d=" M  125 28 a 3 3 0 0 1 3 -3" stroke="blue"  fill="none" />
+<path d=" M  75 128 a 3 3 0 0 1 3 -3" stroke="blue"  fill="none" />
+<path d=" M  75 78 a 3 3 0 0 1 3 -3" stroke="blue"  fill="none" />
+<path d=" M  75 28 a 3 3 0 0 1 3 -3" stroke="blue"  fill="none" />
+<path d=" M  25 128 a 3 3 0 0 1 3 -3" stroke="blue"  fill="none" />
+<path d=" M  25 78 a 3 3 0 0 1 3 -3" stroke="blue"  fill="none" />
+<line x1="54.16666666666667" y1="35.0" x2="75" y2="35.0" stroke="blue"   transform="" />
+<line x1="54.16666666666667" y1="45.0" x2="75" y2="45.0" stroke="blue"   transform="" />
+<line x1="54.16666666666667" y1="35.0" x2="54.16666666666667" y2="45.0" stroke="blue"   transform="" />
+<line x1="125.0" y1="35.0" x2="145.83333333333331" y2="35.0" stroke="blue"   transform="" />
+<line x1="125.0" y1="45.0" x2="145.83333333333331" y2="45.0" stroke="blue"   transform="" />
+<line x1="145.83333333333331" y1="35.0" x2="145.83333333333331" y2="45.0" stroke="blue"   transform="" />
+<line x1="155.0" y1="54.16666666666667" x2="155.0" y2="75" stroke="blue"   transform="" />
+<line x1="165.0" y1="54.16666666666667" x2="165.0" y2="75" stroke="blue"   transform="" />
+<line x1="165.0" y1="54.16666666666667" x2="155.0" y2="54.16666666666667" stroke="blue"   transform="" />
+<line x1="155.0" y1="154.16666666666666" x2="155.0" y2="175" stroke="blue"   transform="" />
+<line x1="165.0" y1="154.16666666666666" x2="165.0" y2="175" stroke="blue"   transform="" />
+<line x1="165.0" y1="154.16666666666666" x2="155.0" y2="154.16666666666666" stroke="blue"   transform="" />
+<line x1="75.0" y1="155.0" x2="95.83333333333333" y2="155.0" stroke="blue"   transform="" />
+<line x1="75.0" y1="165.0" x2="95.83333333333333" y2="165.0" stroke="blue"   transform="" />
+<line x1="95.83333333333333" y1="155.0" x2="95.83333333333333" y2="165.0" stroke="blue"   transform="" />
+<line x1="75" y1="10.71" x2="94.645" y2="40.0" stroke="blue"   transform="" />
+<line x1="75" y1="50.0" x2="94.645" y2="40.0" stroke="blue"   transform="" />
+<line x1="75" y1="60.71" x2="94.645" y2="90.0" stroke="blue"   transform="" />
+<line x1="75" y1="100.0" x2="94.645" y2="90.0" stroke="blue"   transform="" />
+<line x1="75" y1="150.0" x2="55.355000000000004" y2="160.0" stroke="blue"   transform="" />
+<line x1="75" y1="189.29" x2="55.355000000000004" y2="160.0" stroke="blue"   transform="" />
+<line x1="130.35500000000002" y1="125" x2="150.0" y2="144.64499999999998" stroke="blue"   transform="" />
+<line x1="169.645" y1="125" x2="150.0" y2="144.64499999999998" stroke="blue"   transform="" />
+<line x1="50.0" y1="125" x2="69.645" y2="144.64499999999998" stroke="blue"   transform="" />
+<line x1="89.28999999999999" y1="125" x2="69.645" y2="144.64499999999998" stroke="blue"   transform="" />
+<line x1="50.0" y1="125" x2="69.645" y2="105.355" stroke="blue"   transform="" />
+<line x1="89.28999999999999" y1="125" x2="69.645" y2="105.355" stroke="blue"   transform="" />
+<line x1="125" y1="130.35500000000002" x2="144.64499999999998" y2="150.0" stroke="blue"   transform="" />
+<line x1="144.64499999999998" y1="150.0" x2="125" y2="169.645" stroke="blue"   transform="" />
+<line x1="145.0" y1="125" x2="145.0" y2="112.5" stroke="blue"   transform="" />
+<line x1="155.0" y1="125" x2="155.0" y2="112.5" stroke="blue"   transform="" />
+<line x1="145.0" y1="112.5" x2="130.35500000000002" y2="112.5" stroke="blue"   transform="" />
+<line x1="130.35500000000002" y1="112.5" x2="150.0" y2="92.855" stroke="blue"   transform="" />
+<line x1="169.645" y1="112.5" x2="155.0" y2="112.5" stroke="blue"   transform="" />
+<line x1="150.0" y1="92.855" x2="169.645" y2="112.5" stroke="blue"   transform="" />
+<line x1="92.855" y1="100.0" x2="112.5" y2="80.355" stroke="blue"   transform="" />
+<line x1="92.855" y1="100.0" x2="112.5" y2="119.645" stroke="blue"   transform="" />
+<line x1="112.5" y1="95.0" x2="112.5" y2="80.355" stroke="blue"   transform="" />
+<line x1="112.5" y1="105.0" x2="112.5" y2="119.645" stroke="blue"   transform="" />
+<line x1="112.5" y1="105.0" x2="125" y2="105.0" stroke="blue"   transform="" />
+<line x1="112.5" y1="95.0" x2="125" y2="95.0" stroke="blue"   transform="" />
+<line x1="92.855" y1="150.0" x2="112.5" y2="130.35500000000002" stroke="blue"   transform="" />
+<line x1="92.855" y1="150.0" x2="112.5" y2="169.64499999999998" stroke="blue"   transform="" />
+<line x1="112.5" y1="145.0" x2="112.5" y2="130.35500000000002" stroke="blue"   transform="" />
+<line x1="112.5" y1="155.0" x2="112.5" y2="169.64499999999998" stroke="blue"   transform="" />
+<line x1="112.5" y1="155.0" x2="125" y2="155.0" stroke="blue"   transform="" />
+<line x1="112.5" y1="145.0" x2="125" y2="145.0" stroke="blue"   transform="" />
+</svg>

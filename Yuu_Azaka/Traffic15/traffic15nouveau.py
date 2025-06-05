@@ -116,6 +116,7 @@ if __name__=="__main__":
     longueurFleche=5*cote/12
     # centrage de la hampe de la flèche
     u=(cote/2)-2*largeurFleche
+   
     largeurPointe=largeurFleche+2*u
     theta=pi/6
     largeurPointeCos=largeurPointe*cos(theta)
