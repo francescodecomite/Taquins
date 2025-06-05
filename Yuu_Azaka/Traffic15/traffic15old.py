@@ -116,6 +116,9 @@ if __name__=="__main__":
     longueurFleche=5*cote/12
     # centrage de la hampe de la flèche
     u=(cote/2)-2*largeurFleche
+    largeurPointe=largeurFleche+2*u
+    hauteurPointe=sqrt(2)/4*largeurPointe
+    v=cote/2-u-largeurFleche
     
    
     
@@ -301,6 +304,12 @@ if __name__=="__main__":
     image.write(ligne((cote,largeurFleche),(cote,2*largeurFleche)))
     decalx=ep
     decaly=ep
+
+    # les têtes de flèche toutes seuls au bord des carrés (il y en a 7)
+    # première colonne en bas
+    print(v-u)
+    image.write(ligne((cote,v-u),(cote,cote+hauteurPointe),couleur="black"))
+    image.write(ligne((cote,cote/2-u),(cote,cote+hauteurPointe),couleur="black"))
     
 
     
