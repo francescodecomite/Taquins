@@ -117,8 +117,14 @@ if __name__=="__main__":
     # centrage de la hampe de la flèche
     u=(cote/2)-2*largeurFleche
     largeurPointe=largeurFleche+2*u
+
     hauteurPointe=sqrt(2)/4*largeurPointe
     v=cote/2-u-largeurFleche
+
+    theta=pi/6
+    largeurPointeCos=largeurPointe*cos(theta)
+    largeurPointeSin=largeurPointe*sin(theta)
+
     
    
     
@@ -169,12 +175,29 @@ if __name__=="__main__":
     s="<path d=\" M  "+str(decalx)+ " "+str(decaly+cote+cote/2)+ " a "+str(cote/2)+" "+str(cote/2)+" 0 0 1 "+ str(cote/2)+" "+str(-cote/2)+ "\" stroke=\"blue\"  fill=\"none\" />\n"
     image.write(s)
 
-    #Changement d'avis : on va découper les grandes lines interieures, bien mettre tous les coins
+    #Changement d'avis : on va découper les grandes lignes interieures, bien mettre tous les coins
     #et on peaufinea les trous à la fin
+    """
     for i in range(2):
         image.write(ligne(((i+1)*cote,0),((i+1)*cote,3*cote),couleur="blue"))
         image.write(ligne((0,(i+1)*cote),(3*cote,(i+1)*cote),couleur="blue"))
+    """
+    #image.write(ligne((cote,0),(cote,3*cote),couleur="blue"))
+    image.write(ligne((cote,0),(cote,largeurFleche),couleur="blue"))
+    image.write(ligne((cote,2*largeurFleche),(cote,cote+largeurFleche),couleur="blue"))
+    image.write(ligne((cote,1.5*cote-u),(cote,2.5*cote+u),couleur="blue"))
+    image.write(ligne((cote,2.5*cote+largeurFleche+u),(cote,3*cote),couleur="blue"))
 
+    #image.write(ligne((2*cote,0),(2*cote,3*cote),couleur="blue"))
+    image.write(ligne((2*cote,0),(2*cote,2.5*cote-largeurFleche/2),couleur="blue"))
+    image.write(ligne((2*cote,3*cote),(2*cote,2.5*cote+largeurFleche/2),couleur="blue"))
+
+    image.write(ligne((0,cote),(3*cote,cote),couleur="blue"))
+    image.write(ligne((0,2*cote),(2.5*cote-largeurFleche/2,2*cote),couleur="blue"))
+    image.write(ligne((3*cote,2*cote),(2.5*cote+largeurFleche/2,2*cote),couleur="blue"))
+
+
+    
     # Les coins arrondis
     
     # debut coherent
@@ -305,6 +328,7 @@ if __name__=="__main__":
     decalx=ep
     decaly=ep
 
+
     # les têtes de flèche toutes seuls au bord des carrés (il y en a 7)
     # première colonne en bas
     print(v-u)
@@ -312,7 +336,63 @@ if __name__=="__main__":
     image.write(ligne((cote,cote/2-u),(cote,cote+hauteurPointe),couleur="black"))
     
 
+
+
+    # les tetes de fleches en bord de carré
     
+    image.write(ligne((cote,cote/2-largeurPointe),(cote+largeurPointeSin,1.5*largeurFleche)))
+    image.write(ligne((cote,cote/2),(cote+largeurPointeSin,1.5*largeurFleche)))
+   
+    image.write(ligne((cote,cote+cote/2-largeurPointe),(cote+largeurPointeSin,cote+1.5*largeurFleche)))
+    image.write(ligne((cote,cote+cote/2),(cote+largeurPointeSin,cote+1.5*largeurFleche)))
+    # en bas a gauche
+    image.write(ligne((cote,2*cote+cote/2),(cote-largeurPointeSin,3*cote-1.5*largeurFleche)))
+    image.write(ligne((cote,2*cote+cote/2+largeurPointe),(cote-largeurPointeSin,3*cote-1.5*largeurFleche)))
+    # Les tetes toutes seules dirigées vers le bas
+    # A droite
+    image.write(ligne((2.5*cote-largeurPointe/2,2*cote),(2.5*cote,2*cote+largeurPointeSin)))
+    image.write(ligne((2.5*cote+largeurPointe/2,2*cote),(2.5*cote,2*cote+largeurPointeSin)))
+    # A gauche bas
+    image.write(ligne((0.5*cote,2*cote),(0.5*cote+largeurPointe/2,2*cote+largeurPointeSin)))
+    image.write(ligne((0.5*cote+largeurPointe,2*cote),(0.5*cote+largeurPointe/2,2*cote+largeurPointeSin)))
+    # A gauche haut
+    image.write(ligne((0.5*cote,2*cote),(0.5*cote+largeurPointe/2,2*cote-largeurPointeSin)))
+    image.write(ligne((0.5*cote+largeurPointe,2*cote),(0.5*cote+largeurPointe/2,2*cote-largeurPointeSin)))
+    # La plus basse a droite
+    image.write(ligne((2*cote,2.5*cote-largeurPointe/2),(2*cote+largeurPointeSin,2.5*cote)))
+    image.write(ligne((2*cote+largeurPointeSin,2.5*cote),(2*cote,2.5*cote+largeurPointe/2)))
+    # Les petites fleches (il y en a trois)
+    petiteLongueur=cote/4
+    ecart=largeurPointe-largeurFleche
+    image.write(ligne((2.5*cote-largeurFleche/2,2*cote),(2.5*cote-largeurFleche/2,2*cote-petiteLongueur)))
+    image.write(ligne((2.5*cote+largeurFleche/2,2*cote),(2.5*cote+largeurFleche/2,2*cote-petiteLongueur)))
+    image.write(ligne((2.5*cote-largeurFleche/2,2*cote-petiteLongueur),(2.5*cote-largeurPointe/2,2*cote-petiteLongueur)))
+    image.write(ligne((2.5*cote-largeurPointe/2,2*cote-petiteLongueur),(2.5*cote,2*cote-petiteLongueur-largeurPointeSin)))
+    
+    image.write(ligne((2.5*cote+largeurPointe/2,2*cote-petiteLongueur),(2.5*cote+largeurFleche/2,2*cote-petiteLongueur)))
+    image.write(ligne((2.5*cote,2*cote-petiteLongueur-largeurPointeSin),(2.5*cote+largeurPointe/2,2*cote-petiteLongueur)))
+   
+    # Les deux petites fleches horizontales
+
+    image.write(ligne((2*cote-petiteLongueur-largeurPointeSin,1.5*cote),(2*cote-petiteLongueur,1.5*cote-largeurPointe/2)))
+    image.write(ligne((2*cote-petiteLongueur-largeurPointeSin,1.5*cote),(2*cote-petiteLongueur,1.5*cote+largeurPointe/2)))
+
+    image.write(ligne((2*cote-petiteLongueur,1.5*cote-largeurFleche/2),(2*cote-petiteLongueur,1.5*cote-largeurPointe/2)))
+    image.write(ligne((2*cote-petiteLongueur,1.5*cote+largeurFleche/2),(2*cote-petiteLongueur,1.5*cote+largeurPointe/2)))
+    image.write(ligne((2*cote-petiteLongueur,1.5*cote+largeurFleche/2),(2*cote,1.5*cote+largeurFleche/2)))
+    image.write(ligne((2*cote-petiteLongueur,1.5*cote-largeurFleche/2),(2*cote,1.5*cote-largeurFleche/2)))
+
+    decaly+=cote
+    
+    image.write(ligne((2*cote-petiteLongueur-largeurPointeSin,1.5*cote),(2*cote-petiteLongueur,1.5*cote-largeurPointe/2)))
+    image.write(ligne((2*cote-petiteLongueur-largeurPointeSin,1.5*cote),(2*cote-petiteLongueur,1.5*cote+largeurPointe/2)))
+
+    image.write(ligne((2*cote-petiteLongueur,1.5*cote-largeurFleche/2),(2*cote-petiteLongueur,1.5*cote-largeurPointe/2)))
+    image.write(ligne((2*cote-petiteLongueur,1.5*cote+largeurFleche/2),(2*cote-petiteLongueur,1.5*cote+largeurPointe/2)))
+    image.write(ligne((2*cote-petiteLongueur,1.5*cote+largeurFleche/2),(2*cote,1.5*cote+largeurFleche/2)))
+    image.write(ligne((2*cote-petiteLongueur,1.5*cote-largeurFleche/2),(2*cote,1.5*cote-largeurFleche/2)))
+    decaly=ep
+
     """
     # les lignes de découpe des pièces internes mobiles
     image.write(arc1(50,0))
