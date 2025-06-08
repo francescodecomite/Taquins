@@ -112,11 +112,11 @@ if __name__=="__main__":
     """
     # dimensions paramétrables des divers objets
     # Largeur du corps des flèches
-    largeurFleche=cote/5
-    longueurFleche=5*cote/12
+    largeurFleche=(sqrt(2)-1)/2*cote
+    longueurFleche=3/4*(2-sqrt(2))*cote
     # centrage de la hampe de la flèche
-    u=(cote/2)-2*largeurFleche
-   
+    
+    u=(1.5-sqrt(2))*cote
     largeurPointe=largeurFleche+2*u
     theta=pi/6
     largeurPointeCos=largeurPointe*cos(theta)
