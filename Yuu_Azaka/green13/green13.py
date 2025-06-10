@@ -111,6 +111,35 @@ if __name__=="__main__":
     decalx=ep+16*unite
     decaly=ep+3*unite
     image.write(cercle(0,0,unite,couleur="blue"))
+
+    # Les découpes de pièces
+    decalx=ep
+    decaly=ep
+    image.write(ligne((0,2*unite),(3*unite,2*unite),couleur="blue"))
+    image.write(ligne((3*unite,2*unite),(3*unite,6*unite),couleur="blue"))
+    image.write(ligne((3*unite,6*unite),(5*unite,6*unite),couleur="blue"))
+    image.write(ligne((0*unite,8*unite),(9*unite,8*unite),couleur="blue"))
+    image.write(ligne((6*unite,10*unite),(12*unite,10*unite),couleur="blue"))
+    image.write(ligne((6*unite,8*unite),(6*unite,10*unite),couleur="blue"))
+    image.write(ligne((12*unite,12*unite),(12*unite,7*unite),couleur="blue"))
+    image.write(ligne((9*unite,6*unite),(9*unite,8*unite),couleur="blue"))
+    image.write(ligne((14*unite,12*unite),(14*unite,9*unite),couleur="blue"))
+    image.write(ligne((7*unite,6*unite),(11*unite,6*unite),couleur="blue"))
+    image.write(ligne((8*unite,6*unite),(8*unite,3*unite),couleur="blue"))
+    image.write(ligne((8*unite,3*unite),(12*unite,3*unite),couleur="blue"))
+    image.write(ligne((12*unite,3*unite),(12*unite,0*unite),couleur="blue"))
+    image.write(ligne((14*unite,6*unite),(14*unite,0*unite),couleur="blue"))
+    image.write(ligne((13*unite,6*unite),(16*unite,6*unite),couleur="blue"))
+    image.write(ligne((16*unite,4*unite),(16*unite,9*unite),couleur="blue"))
+    image.write(ligne((14*unite,9*unite),(16*unite,9*unite),couleur="blue"))
+    image.write(ligne((17*unite,3*unite),(18*unite,3*unite),couleur="blue"))
+    image.write(ligne((6*unite,0*unite),(6*unite,5*unite),couleur="blue"))
+
+    # Quatre cercles à faire dans une couleur différente
+    decaly=ep+14*unite
+    for i in range(4): 
+     decalx=ep+3*unite+i*2.3*unite
+     image.write(cercle(0,0,unite,couleur="lime"))
     
 
     

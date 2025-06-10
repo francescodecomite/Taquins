@@ -1,0 +1,1441 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="green13_final.svg"
+   id="svg3203"
+   version="1.1"
+   viewBox="0 0 1000 1000">
+  <metadata
+     id="metadata3209">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3207" />
+  <sodipodi:namedview
+     inkscape:current-layer="svg3203"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="1912"
+     inkscape:cy="770.23821"
+     inkscape:cx="402.48853"
+     inkscape:zoom="1.6550575"
+     showgrid="false"
+     id="namedview3205"
+     inkscape:window-height="1017"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <!-- Les bords intérieurs et exterieurs / -->
+  <rect
+     id="rect2869"
+     transform=""
+     stroke="lime"
+     fill="none"
+     ry="20"
+     rx="20"
+     height="670"
+     width="970"
+     y="0"
+     x="0" />
+  <line
+     id="line2871"
+     transform=""
+     stroke="lime"
+     y2="635"
+     x2="35"
+     y1="35"
+     x1="35" />
+  <line
+     id="line2873"
+     transform=""
+     stroke="lime"
+     y2="635"
+     x2="935"
+     y1="35"
+     x1="935" />
+  <line
+     id="line2875"
+     transform=""
+     stroke="lime"
+     y2="35"
+     x2="935"
+     y1="35"
+     x1="35" />
+  <line
+     id="line2877"
+     transform=""
+     stroke="lime"
+     y2="635"
+     x2="935"
+     y1="635"
+     x1="35" />
+  <rect
+     style="stroke:#ff0000;stroke-opacity:1"
+     id="rect2879"
+     transform=""
+     stroke="black"
+     fill="none"
+     ry="10"
+     rx="10"
+     height="100"
+     width="150"
+     y="35"
+     x="35" />
+  <rect
+     style="stroke:#ff0000;stroke-opacity:1"
+     id="rect2881"
+     transform=""
+     stroke="black"
+     fill="none"
+     ry="10"
+     rx="10"
+     height="100"
+     width="150"
+     y="35"
+     x="185" />
+  <rect
+     style="stroke:#ff0000;stroke-opacity:1"
+     id="rect2883"
+     transform=""
+     stroke="black"
+     fill="none"
+     ry="10"
+     rx="10"
+     height="100"
+     width="150"
+     y="135"
+     x="35" />
+  <rect
+     style="stroke:#ff0000;stroke-opacity:1"
+     id="rect2885"
+     transform=""
+     stroke="black"
+     fill="none"
+     ry="10"
+     rx="10"
+     height="100"
+     width="150"
+     y="135"
+     x="185" />
+  <rect
+     style="stroke:#ff0000;stroke-opacity:1"
+     id="rect2887"
+     transform=""
+     stroke="black"
+     fill="none"
+     ry="10"
+     rx="10"
+     height="100"
+     width="150"
+     y="235"
+     x="35" />
+  <rect
+     style="stroke:#ff0000;stroke-opacity:1"
+     id="rect2889"
+     transform=""
+     stroke="black"
+     fill="none"
+     ry="10"
+     rx="10"
+     height="100"
+     width="150"
+     y="235"
+     x="185" />
+  <rect
+     style="stroke:#ff0000;stroke-opacity:1"
+     id="rect2891"
+     transform=""
+     stroke="black"
+     fill="none"
+     ry="10"
+     rx="10"
+     height="100"
+     width="150"
+     y="335"
+     x="35" />
+  <rect
+     style="stroke:#ff0000;stroke-opacity:1"
+     id="rect2893"
+     transform=""
+     stroke="black"
+     fill="none"
+     ry="10"
+     rx="10"
+     height="100"
+     width="150"
+     y="335"
+     x="185" />
+  <rect
+     style="stroke:#ff0000;stroke-opacity:1"
+     id="rect2895"
+     transform=""
+     stroke="black"
+     fill="none"
+     ry="10"
+     rx="10"
+     height="100"
+     width="150"
+     y="435"
+     x="35" />
+  <rect
+     style="stroke:#ff0000;stroke-opacity:1"
+     id="rect2897"
+     transform=""
+     stroke="black"
+     fill="none"
+     ry="10"
+     rx="10"
+     height="100"
+     width="150"
+     y="435"
+     x="185" />
+  <rect
+     style="stroke:#ff0000;stroke-opacity:1"
+     id="rect2899"
+     transform=""
+     stroke="black"
+     fill="none"
+     ry="10"
+     rx="10"
+     height="100"
+     width="150"
+     y="535"
+     x="35" />
+  <rect
+     style="stroke:#ff0000;stroke-opacity:1"
+     id="rect2901"
+     transform=""
+     stroke="black"
+     fill="none"
+     ry="10"
+     rx="10"
+     height="100"
+     width="150"
+     y="535"
+     x="185" />
+  <rect
+     style="stroke:#ff0000;stroke-opacity:1"
+     id="rect2903"
+     transform=""
+     stroke="black"
+     fill="none"
+     ry="10"
+     rx="10"
+     height="150"
+     width="100"
+     y="35"
+     x="335" />
+  <rect
+     style="stroke:#ff0000;stroke-opacity:1"
+     id="rect2905"
+     transform=""
+     stroke="black"
+     fill="none"
+     ry="10"
+     rx="10"
+     height="150"
+     width="100"
+     y="185"
+     x="335" />
+  <rect
+     style="stroke:#ff0000;stroke-opacity:1"
+     id="rect2907"
+     transform=""
+     stroke="black"
+     fill="none"
+     ry="10"
+     rx="10"
+     height="150"
+     width="100"
+     y="35"
+     x="435" />
+  <rect
+     style="stroke:#ff0000;stroke-opacity:1"
+     id="rect2909"
+     transform=""
+     stroke="black"
+     fill="none"
+     ry="10"
+     rx="10"
+     height="150"
+     width="100"
+     y="185"
+     x="435" />
+  <rect
+     style="stroke:#ff0000;stroke-opacity:1"
+     id="rect2911"
+     transform=""
+     stroke="black"
+     fill="none"
+     ry="10"
+     rx="10"
+     height="150"
+     width="100"
+     y="35"
+     x="535" />
+  <rect
+     style="stroke:#ff0000;stroke-opacity:1"
+     id="rect2913"
+     transform=""
+     stroke="black"
+     fill="none"
+     ry="10"
+     rx="10"
+     height="150"
+     width="100"
+     y="185"
+     x="535" />
+  <rect
+     style="stroke:#ff0000;stroke-opacity:1"
+     id="rect2915"
+     transform=""
+     stroke="black"
+     fill="none"
+     ry="10"
+     rx="10"
+     height="150"
+     width="100"
+     y="35"
+     x="635" />
+  <rect
+     style="stroke:#ff0000;stroke-opacity:1"
+     id="rect2917"
+     transform=""
+     stroke="black"
+     fill="none"
+     ry="10"
+     rx="10"
+     height="150"
+     width="100"
+     y="185"
+     x="635" />
+  <rect
+     style="stroke:#ff0000;stroke-opacity:1"
+     id="rect2919"
+     transform=""
+     stroke="black"
+     fill="none"
+     ry="10"
+     rx="10"
+     height="150"
+     width="100"
+     y="35"
+     x="735" />
+  <rect
+     style="stroke:#ff0000;stroke-opacity:1"
+     id="rect2921"
+     transform=""
+     stroke="black"
+     fill="none"
+     ry="10"
+     rx="10"
+     height="150"
+     width="100"
+     y="185"
+     x="735" />
+  <rect
+     style="stroke:#ff0000;stroke-opacity:1"
+     id="rect2923"
+     transform=""
+     stroke="black"
+     fill="none"
+     ry="10"
+     rx="10"
+     height="150"
+     width="100"
+     y="35"
+     x="835" />
+  <rect
+     style="stroke:#ff0000;stroke-opacity:1"
+     id="rect2925"
+     transform=""
+     stroke="black"
+     fill="none"
+     ry="10"
+     rx="10"
+     height="150"
+     width="100"
+     y="185"
+     x="835" />
+  <rect
+     style="stroke:#ff0000;stroke-opacity:1"
+     id="rect2927"
+     transform=""
+     stroke="black"
+     fill="none"
+     ry="10"
+     rx="10"
+     height="100"
+     width="150"
+     y="335"
+     x="335" />
+  <rect
+     style="stroke:#ff0000;stroke-opacity:1"
+     id="rect2929"
+     transform=""
+     stroke="black"
+     fill="none"
+     ry="10"
+     rx="10"
+     height="100"
+     width="150"
+     y="335"
+     x="485" />
+  <rect
+     style="stroke:#ff0000;stroke-opacity:1"
+     id="rect2931"
+     transform=""
+     stroke="black"
+     fill="none"
+     ry="10"
+     rx="10"
+     height="100"
+     width="150"
+     y="435"
+     x="335" />
+  <rect
+     style="stroke:#ff0000;stroke-opacity:1"
+     id="rect2933"
+     transform=""
+     stroke="black"
+     fill="none"
+     ry="10"
+     rx="10"
+     height="100"
+     width="150"
+     y="435"
+     x="485" />
+  <rect
+     style="stroke:#ff0000;stroke-opacity:1"
+     id="rect2935"
+     transform=""
+     stroke="black"
+     fill="none"
+     ry="10"
+     rx="10"
+     height="100"
+     width="150"
+     y="535"
+     x="335" />
+  <rect
+     style="stroke:#ff0000;stroke-opacity:1"
+     id="rect2937"
+     transform=""
+     stroke="black"
+     fill="none"
+     ry="10"
+     rx="10"
+     height="100"
+     width="150"
+     y="535"
+     x="485" />
+  <rect
+     style="stroke:#ff0000;stroke-opacity:1"
+     id="rect2939"
+     transform=""
+     stroke="black"
+     fill="none"
+     ry="10"
+     rx="10"
+     height="150"
+     width="100"
+     y="335"
+     x="635" />
+  <rect
+     style="stroke:#ff0000;stroke-opacity:1"
+     id="rect2941"
+     transform=""
+     stroke="black"
+     fill="none"
+     ry="10"
+     rx="10"
+     height="150"
+     width="100"
+     y="485"
+     x="635" />
+  <rect
+     style="stroke:#ff0000;stroke-opacity:1"
+     id="rect2943"
+     transform=""
+     stroke="black"
+     fill="none"
+     ry="10"
+     rx="10"
+     height="150"
+     width="100"
+     y="335"
+     x="735" />
+  <rect
+     style="stroke:#ff0000;stroke-opacity:1"
+     id="rect2945"
+     transform=""
+     stroke="black"
+     fill="none"
+     ry="10"
+     rx="10"
+     height="150"
+     width="100"
+     y="485"
+     x="735" />
+  <rect
+     style="stroke:#ff0000;stroke-opacity:1"
+     id="rect2947"
+     transform=""
+     stroke="black"
+     fill="none"
+     ry="10"
+     rx="10"
+     height="150"
+     width="100"
+     y="335"
+     x="835" />
+  <rect
+     style="stroke:#ff0000;stroke-opacity:1"
+     id="rect2949"
+     transform=""
+     stroke="black"
+     fill="none"
+     ry="10"
+     rx="10"
+     height="150"
+     width="100"
+     y="485"
+     x="835" />
+  <circle
+     id="circle2951"
+     stroke="blue"
+     fill="none"
+     r="50"
+     cy="335"
+     cx="335" />
+  <circle
+     id="circle2953"
+     stroke="blue"
+     fill="none"
+     r="50"
+     cy="335"
+     cx="635" />
+  <circle
+     id="circle2955"
+     stroke="blue"
+     fill="none"
+     r="50"
+     cy="535"
+     cx="185" />
+  <circle
+     id="circle2957"
+     stroke="blue"
+     fill="none"
+     r="50"
+     cy="185"
+     cx="835" />
+  <line
+     id="line2959"
+     transform=""
+     stroke="blue"
+     y2="135"
+     x2="185"
+     y1="135"
+     x1="35" />
+  <line
+     id="line2961"
+     transform=""
+     stroke="blue"
+     y2="335"
+     x2="185"
+     y1="135"
+     x1="185" />
+  <line
+     id="line2963"
+     transform=""
+     stroke="blue"
+     y2="335"
+     x2="285"
+     y1="335"
+     x1="185" />
+  <line
+     id="line2965"
+     transform=""
+     stroke="blue"
+     y2="435"
+     x2="485"
+     y1="435"
+     x1="35" />
+  <line
+     id="line2967"
+     transform=""
+     stroke="blue"
+     y2="535"
+     x2="635"
+     y1="535"
+     x1="335" />
+  <line
+     id="line2969"
+     transform=""
+     stroke="blue"
+     y2="535"
+     x2="335"
+     y1="435"
+     x1="335" />
+  <line
+     id="line2971"
+     transform=""
+     stroke="blue"
+     y2="385"
+     x2="635"
+     y1="635"
+     x1="635" />
+  <line
+     id="line2973"
+     transform=""
+     stroke="blue"
+     y2="435"
+     x2="485"
+     y1="335"
+     x1="485" />
+  <line
+     id="line2975"
+     transform=""
+     stroke="blue"
+     y2="485"
+     x2="735"
+     y1="635"
+     x1="735" />
+  <line
+     id="line2977"
+     transform=""
+     stroke="blue"
+     y2="335"
+     x2="585"
+     y1="335"
+     x1="385" />
+  <line
+     id="line2979"
+     transform=""
+     stroke="blue"
+     y2="185"
+     x2="435"
+     y1="335"
+     x1="435" />
+  <line
+     id="line2981"
+     transform=""
+     stroke="blue"
+     y2="185"
+     x2="635"
+     y1="185"
+     x1="435" />
+  <line
+     id="line2983"
+     transform=""
+     stroke="blue"
+     y2="35"
+     x2="635"
+     y1="185"
+     x1="635" />
+  <line
+     id="line2985"
+     transform=""
+     stroke="blue"
+     y2="35"
+     x2="735"
+     y1="335"
+     x1="735" />
+  <line
+     id="line2987"
+     transform=""
+     stroke="blue"
+     y2="335"
+     x2="835"
+     y1="335"
+     x1="685" />
+  <line
+     id="line2989"
+     transform=""
+     stroke="blue"
+     y2="485"
+     x2="835"
+     y1="235"
+     x1="835" />
+  <line
+     id="line2991"
+     transform=""
+     stroke="blue"
+     y2="485"
+     x2="835"
+     y1="485"
+     x1="735" />
+  <line
+     id="line2993"
+     transform=""
+     stroke="blue"
+     y2="185"
+     x2="935"
+     y1="185"
+     x1="885" />
+  <line
+     id="line2995"
+     transform=""
+     stroke="blue"
+     y2="285"
+     x2="335"
+     y1="35"
+     x1="335" />
+  <circle
+     id="circle2997"
+     stroke="lime"
+     fill="none"
+     r="50"
+     cy="735"
+     cx="185.0" />
+  <circle
+     id="circle2999"
+     stroke="lime"
+     fill="none"
+     r="50"
+     cy="735"
+     cx="300.0" />
+  <circle
+     id="circle3001"
+     stroke="lime"
+     fill="none"
+     r="50"
+     cy="735"
+     cx="415.0" />
+  <circle
+     id="circle3003"
+     stroke="lime"
+     fill="none"
+     r="50"
+     cy="735"
+     cx="530.0" />
+  <!-- Pièce en haut à gauche / -->
+  <!-- Pièce en haut à gauche ligne du bas/ -->
+  <!-- Pièce en haut à gauche la hampe de flèche tordue/ -->
+  <line
+     id="line3005"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35.0"
+     y1="35"
+     x1="35.0" />
+  <line
+     id="line3007"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35.0"
+     y1="35"
+     x1="35.0" />
+  <!-- Pièce en haut à gauche la hampe de flèche tordue/ -->
+  <line
+     id="line3009"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35"
+     y1="35.0"
+     x1="35.0" />
+  <line
+     id="line3011"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35"
+     y1="35.0"
+     x1="35.0" />
+  <!-- Pièce en haut à gauche le grand coin arrondi à gauche/ -->
+  <path
+     id="path3013"
+     fill="none"
+     stroke="blue"
+     d=" M  35 35.0 a 0.0 0.0 0 0 1 0.0 0.0" />
+  <!-- Pièce en haut au milieu/ -->
+  <line
+     id="line3015"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35.0"
+     y1="35"
+     x1="35.0" />
+  <line
+     id="line3017"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35.0"
+     y1="35"
+     x1="35.0" />
+  <path
+     id="path3019"
+     fill="none"
+     stroke="blue"
+     d=" M  35 35.0 a 0.0 0.0 0 0 1 0.0 0.0" />
+  <line
+     id="line3021"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35"
+     y1="35"
+     x1="35" />
+  <line
+     id="line3023"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35"
+     y1="35.0"
+     x1="35" />
+  <line
+     id="line3025"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35"
+     y1="35.0"
+     x1="35" />
+  <line
+     id="line3027"
+     transform=""
+     stroke="blue"
+     y2="35"
+     x2="35"
+     y1="35.0"
+     x1="35" />
+  <line
+     id="line3029"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35"
+     y1="35"
+     x1="35" />
+  <line
+     id="line3031"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35"
+     y1="35"
+     x1="35" />
+  <line
+     id="line3033"
+     transform=""
+     stroke="blue"
+     y2="35"
+     x2="35"
+     y1="35"
+     x1="35" />
+  <line
+     id="line3035"
+     transform=""
+     stroke="blue"
+     y2="35"
+     x2="35.0"
+     y1="35"
+     x1="35" />
+  <line
+     id="line3037"
+     transform=""
+     stroke="blue"
+     y2="35"
+     x2="35.0"
+     y1="35"
+     x1="35" />
+  <path
+     id="path3039"
+     fill="none"
+     stroke="blue"
+     d=" M  35 32 a 3 3 0 0 0 3 3" />
+  <path
+     id="path3041"
+     fill="none"
+     stroke="blue"
+     d=" M  35 32 a 3 3 0 0 0 3 3" />
+  <path
+     id="path3043"
+     fill="none"
+     stroke="blue"
+     d=" M  35 32 a 3 3 0 0 0 3 3" />
+  <path
+     id="path3045"
+     fill="none"
+     stroke="blue"
+     d=" M  35 32 a 3 3 0 0 0 3 3" />
+  <path
+     id="path3047"
+     fill="none"
+     stroke="blue"
+     d=" M  35 32 a 3 3 0 0 0 3 3" />
+  <path
+     id="path3049"
+     fill="none"
+     stroke="blue"
+     d=" M  35 32 a 3 3 0 0 0 3 3" />
+  <path
+     id="path3051"
+     fill="none"
+     stroke="blue"
+     d=" M  35 32 a 3 3 0 0 0 3 3" />
+  <path
+     id="path3053"
+     fill="none"
+     stroke="blue"
+     d=" M  35 32 a 3 3 0 0 0 3 3" />
+  <path
+     id="path3055"
+     fill="none"
+     stroke="blue"
+     d=" M  32 35 a 3 3 0 0 0 3 -3" />
+  <path
+     id="path3057"
+     fill="none"
+     stroke="blue"
+     d=" M  32 35 a 3 3 0 0 0 3 -3" />
+  <path
+     id="path3059"
+     fill="none"
+     stroke="blue"
+     d=" M  32 35 a 3 3 0 0 0 3 -3" />
+  <path
+     id="path3061"
+     fill="none"
+     stroke="blue"
+     d=" M  32 35 a 3 3 0 0 0 3 -3" />
+  <path
+     id="path3063"
+     fill="none"
+     stroke="blue"
+     d=" M  32 35 a 3 3 0 0 0 3 -3" />
+  <path
+     id="path3065"
+     fill="none"
+     stroke="blue"
+     d=" M  32 35 a 3 3 0 0 0 3 -3" />
+  <path
+     id="path3067"
+     fill="none"
+     stroke="blue"
+     d=" M  32 35 a 3 3 0 0 0 3 -3" />
+  <path
+     id="path3069"
+     fill="none"
+     stroke="blue"
+     d=" M  32 35 a 3 3 0 0 0 3 -3" />
+  <path
+     id="path3071"
+     fill="none"
+     stroke="blue"
+     d=" M  32 35 a 3 3 0 0 0 3 -3" />
+  <path
+     id="path3073"
+     fill="none"
+     stroke="blue"
+     d=" M  32 35 a 3 3 0 0 1 3 3" />
+  <path
+     id="path3075"
+     fill="none"
+     stroke="blue"
+     d=" M  32 35 a 3 3 0 0 1 3 3" />
+  <path
+     id="path3077"
+     fill="none"
+     stroke="blue"
+     d=" M  32 35 a 3 3 0 0 1 3 3" />
+  <path
+     id="path3079"
+     fill="none"
+     stroke="blue"
+     d=" M  32 35 a 3 3 0 0 1 3 3" />
+  <path
+     id="path3081"
+     fill="none"
+     stroke="blue"
+     d=" M  32 35 a 3 3 0 0 1 3 3" />
+  <path
+     id="path3083"
+     fill="none"
+     stroke="blue"
+     d=" M  32 35 a 3 3 0 0 1 3 3" />
+  <path
+     id="path3085"
+     fill="none"
+     stroke="blue"
+     d=" M  32 35 a 3 3 0 0 1 3 3" />
+  <path
+     id="path3087"
+     fill="none"
+     stroke="blue"
+     d=" M  32 35 a 3 3 0 0 1 3 3" />
+  <path
+     id="path3089"
+     fill="none"
+     stroke="blue"
+     d=" M  32 35 a 3 3 0 0 1 3 3" />
+  <path
+     id="path3091"
+     fill="none"
+     stroke="blue"
+     d=" M  32 35 a 3 3 0 0 1 3 3" />
+  <path
+     id="path3093"
+     fill="none"
+     stroke="blue"
+     d=" M  35 38 a 3 3 0 0 1 3 -3" />
+  <path
+     id="path3095"
+     fill="none"
+     stroke="blue"
+     d=" M  35 38 a 3 3 0 0 1 3 -3" />
+  <path
+     id="path3097"
+     fill="none"
+     stroke="blue"
+     d=" M  35 38 a 3 3 0 0 1 3 -3" />
+  <path
+     id="path3099"
+     fill="none"
+     stroke="blue"
+     d=" M  35 38 a 3 3 0 0 1 3 -3" />
+  <path
+     id="path3101"
+     fill="none"
+     stroke="blue"
+     d=" M  35 38 a 3 3 0 0 1 3 -3" />
+  <path
+     id="path3103"
+     fill="none"
+     stroke="blue"
+     d=" M  35 38 a 3 3 0 0 1 3 -3" />
+  <path
+     id="path3105"
+     fill="none"
+     stroke="blue"
+     d=" M  35 38 a 3 3 0 0 1 3 -3" />
+  <path
+     id="path3107"
+     fill="none"
+     stroke="blue"
+     d=" M  35 38 a 3 3 0 0 1 3 -3" />
+  <line
+     id="line3109"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35"
+     y1="35.0"
+     x1="35.0" />
+  <line
+     id="line3111"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35"
+     y1="35.0"
+     x1="35.0" />
+  <line
+     id="line3113"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35.0"
+     y1="35.0"
+     x1="35.0" />
+  <line
+     id="line3115"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35.0"
+     y1="35.0"
+     x1="35.0" />
+  <line
+     id="line3117"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35.0"
+     y1="35.0"
+     x1="35.0" />
+  <line
+     id="line3119"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35.0"
+     y1="35.0"
+     x1="35.0" />
+  <line
+     id="line3121"
+     transform=""
+     stroke="blue"
+     y2="35"
+     x2="35.0"
+     y1="35.0"
+     x1="35.0" />
+  <line
+     id="line3123"
+     transform=""
+     stroke="blue"
+     y2="35"
+     x2="35.0"
+     y1="35.0"
+     x1="35.0" />
+  <line
+     id="line3125"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35.0"
+     y1="35.0"
+     x1="35.0" />
+  <line
+     id="line3127"
+     transform=""
+     stroke="blue"
+     y2="35"
+     x2="35.0"
+     y1="35.0"
+     x1="35.0" />
+  <line
+     id="line3129"
+     transform=""
+     stroke="blue"
+     y2="35"
+     x2="35.0"
+     y1="35.0"
+     x1="35.0" />
+  <line
+     id="line3131"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35.0"
+     y1="35.0"
+     x1="35.0" />
+  <line
+     id="line3133"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35.0"
+     y1="35.0"
+     x1="35.0" />
+  <line
+     id="line3135"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35.0"
+     y1="35.0"
+     x1="35.0" />
+  <line
+     id="line3137"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35.0"
+     y1="35.0"
+     x1="35.0" />
+  <line
+     id="line3139"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35.0"
+     y1="35.0"
+     x1="35" />
+  <line
+     id="line3141"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35.0"
+     y1="35.0"
+     x1="35" />
+  <line
+     id="line3143"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35.0"
+     y1="35.0"
+     x1="35" />
+  <line
+     id="line3145"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35.0"
+     y1="35.0"
+     x1="35" />
+  <line
+     id="line3147"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35.0"
+     y1="35.0"
+     x1="35" />
+  <line
+     id="line3149"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35.0"
+     y1="35.0"
+     x1="35" />
+  <line
+     id="line3151"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35.0"
+     y1="35"
+     x1="35.0" />
+  <line
+     id="line3153"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35.0"
+     y1="35"
+     x1="35.0" />
+  <line
+     id="line3155"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35.0"
+     y1="35"
+     x1="35.0" />
+  <line
+     id="line3157"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35.0"
+     y1="35"
+     x1="35.0" />
+  <line
+     id="line3159"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35.0"
+     y1="35"
+     x1="35.0" />
+  <line
+     id="line3161"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35.0"
+     y1="35"
+     x1="35.0" />
+  <line
+     id="line3163"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35.0"
+     y1="35.0"
+     x1="35" />
+  <line
+     id="line3165"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35"
+     y1="35.0"
+     x1="35.0" />
+  <line
+     id="line3167"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35.0"
+     y1="35"
+     x1="35.0" />
+  <line
+     id="line3169"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35.0"
+     y1="35"
+     x1="35.0" />
+  <line
+     id="line3171"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35.0"
+     y1="35.0"
+     x1="35.0" />
+  <line
+     id="line3173"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35.0"
+     y1="35.0"
+     x1="35.0" />
+  <line
+     id="line3175"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35.0"
+     y1="35.0"
+     x1="35.0" />
+  <line
+     id="line3177"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35.0"
+     y1="35.0"
+     x1="35.0" />
+  <line
+     id="line3179"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35.0"
+     y1="35.0"
+     x1="35.0" />
+  <line
+     id="line3181"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35.0"
+     y1="35.0"
+     x1="35.0" />
+  <line
+     id="line3183"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35.0"
+     y1="35.0"
+     x1="35.0" />
+  <line
+     id="line3185"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35.0"
+     y1="35.0"
+     x1="35.0" />
+  <line
+     id="line3187"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35"
+     y1="35.0"
+     x1="35.0" />
+  <line
+     id="line3189"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35"
+     y1="35.0"
+     x1="35.0" />
+  <line
+     id="line3191"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35.0"
+     y1="35.0"
+     x1="35.0" />
+  <line
+     id="line3193"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35.0"
+     y1="35.0"
+     x1="35.0" />
+  <line
+     id="line3195"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35.0"
+     y1="35.0"
+     x1="35.0" />
+  <line
+     id="line3197"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35.0"
+     y1="35.0"
+     x1="35.0" />
+  <line
+     id="line3199"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35"
+     y1="35.0"
+     x1="35.0" />
+  <line
+     id="line3201"
+     transform=""
+     stroke="blue"
+     y2="35.0"
+     x2="35"
+     y1="35.0"
+     x1="35.0" />
+  <text
+     id="text3213"
+     y="660.21259"
+     x="36.252522"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px"
+     xml:space="preserve"><tspan
+       y="660.21259"
+       x="36.252522"
+       id="tspan3211"
+       sodipodi:role="line">Green 13</tspan></text>
+  <text
+     id="text3217"
+     y="660.40009"
+     x="743.17664"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px"
+     xml:space="preserve"><tspan
+       dx="0 0 0 0 0 0"
+       y="660.40009"
+       x="743.17664"
+       id="tspan3215"
+       sodipodi:role="line">Creator Yuu Azaka</tspan></text>
+</svg>
