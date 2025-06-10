@@ -131,23 +131,27 @@ if __name__=="__main__":
     s="<!-- Pièce en haut à gauche ligne du bas/ -->\n"
     image.write(s)
     # Piece 1 (en haut à gauche)
+    pc1=cote/4
+    gc1=pc1+largeurFleche*tan(pi/6)
     
-    
+    """
     # Hampe coudée
     s="<!-- Pièce en haut à gauche la hampe de flèche tordue/ -->\n"
     image.write(s)
     pc1=cote/4
     gc1=pc1+largeurFleche*tan(pi/6)
-    image.write(ligne(((cote-largeurFleche)/2,cote),(cote/2-largeurFleche/2,cote-pc1-petitRayon),couleur="blue"))# garde
+    image.write(ligne(((cote-largeurFleche)/2,cote),(cote/2-largeurFleche/2,cote-pc1-petitRayon),couleur="red"))# garde
     image.write(ligne(((cote+largeurFleche)/2,cote),(cote/2+largeurFleche/2,cote-gc1-petitRayon),couleur="blue"))# garde
     # Les deux virages (pas le bon angle)
-    s="<path d=\" M  "+str(cote/2-largeurFleche/2+decalx)+ " "+str(cote-pc1-petitRayon+decaly)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 1 0 0 "+ str(-petitRayon)+" "+str(-petitRayon)+ "\" stroke=\"blue\"  fill=\"none\" />\n"
+    s="<path d=\" M  "+str(cote/2-largeurFleche/2+decalx)+ " "+str(cote-pc1-petitRayon+decaly)+ " a "+str(petitRayon)+\
+       " "+str(petitRayon)+" 1 0 0 "+ str(-petitRayon)+" "+str(-petitRayon)+ "\" stroke=\"blue\"  fill=\"none\" />\n"
     image.write(s)
-    s="<path d=\" M  "+str(cote/2+largeurFleche/2+decalx)+ " "+str(cote-gc1-petitRayon+decaly)+ " a "+str(petitRayon)+" "+str(petitRayon)+" 1 0 0 "+ str(-petitRayon)+" "+str(-petitRayon)+ "\" stroke=\"blue\"  fill=\"none\" />\n"
+    s="<path d=\" M  "+str(cote/2+largeurFleche/2+decalx)+ " "+str(cote-gc1-petitRayon+decaly)+ " a "+str(petitRayon)+\
+       " "+str(petitRayon)+" 1 0 0 "+ str(-petitRayon)+" "+str(-petitRayon)+ "\" stroke=\"blue\"  fill=\"none\" />\n"
     image.write(s)
     
     # fin de la hampe
-   
+    """
 
     
    
@@ -379,48 +383,7 @@ if __name__=="__main__":
     image.write(ligne((2*cote-petiteLongueur,1.5*cote-largeurFleche/2),(2*cote,1.5*cote-largeurFleche/2)))
     decaly=ep
 
-    """
-    # les lignes de découpe des pièces internes mobiles
-    image.write(arc1(50,0))
-
-    #image.write(arc2(50,0,"blue"))
-    #image.write(arc3(50,0,"lime"))
-    #image.write(arc4(50,0,"orange"))
-    
-    image.write(ligne((2*cote,1*cote),(2*cote,5*cote)))
-    image.write(arc3(cote,3*cote))
-    image.write(arc3(0,4*cote))
-    image.write(ligne((cote,3*cote),(2*cote,3*cote)))
-    image.write(arc4(2*cote,5*cote))
-    image.write(ligne((2*cote,5*cote),(4*cote,5*cote)))
-    image.write(ligne((3*cote,6*cote),(3*cote,5*cote)))
-    image.write(ligne((4*cote,5*cote),(4*cote,3*cote)))
-    image.write(arc4(3*cote,3*cote))
-    image.write(ligne((3*cote,3*cote),(3*cote,1*cote)))
-    image.write(ligne((2*cote,1*cote),(3*cote,1*cote)))
-    image.write(ligne((3*cote,3*cote),(4*cote,3*cote)))
-    image.write(ligne((4*cote,3*cote),(4*cote,4*cote)))
-    image.write(ligne((4*cote,4*cote),(5*cote,4*cote)))
-    image.write(ligne((5*cote,4*cote),(5*cote,3*cote)))
-    image.write(ligne((5*cote,3*cote),(6*cote,3*cote)))
-    image.write(ligne((6*cote,3*cote),(6*cote,1*cote)))
-    image.write(ligne((6*cote,1*cote),(5*cote,1*cote)))
-    image.write(arc2(4*cote,2*cote))
-    image.write(arc2(3*cote,3*cote))
-    image.write(arc1(4*cote,0*cote))
-    image.write(ligne((6*cote,2*cote),(7*cote,2*cote)))
-    image.write(arc2(7*cote,2*cote))
-    image.write(ligne((8*cote,1*cote),(9*cote,1*cote)))
-    image.write(ligne((7*cote,2*cote),(7*cote,3*cote)))
-    image.write(ligne((7*cote,3*cote),(6*cote,3*cote)))
-    image.write(arc1(6*cote,3*cote))
-    image.write(ligne((7*cote,4*cote),(8*cote,4*cote)))
-    image.write(arc2(8*cote,4*cote))
-    image.write(ligne((7*cote,4*cote),(7*cote,5*cote)))
-    image.write(arc2(6*cote,6*cote))
-    image.write(ligne((5*cote,4*cote),(7*cote,4*cote)))
-    image.write(arc2(4*cote,5*cote))
-    """
+   
     fin(image)
 
     
