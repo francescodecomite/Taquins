@@ -131,28 +131,36 @@ if __name__=="__main__":
     s="<!-- Pièce en haut à gauche ligne du bas/ -->\n"
     image.write(s)
     # Piece 1 (en haut à gauche)
-    pc1=longueurFleche
-    gc1=pc1+largeurFleche*tan(pi/6)
+    pc1=cote/4
+    gc1=cote/4
     
     
-    # Hampe coudée
+    # Hampe coudée (sans coude, on finit à la main)
     s="<!-- Pièce en haut à gauche la hampe de flèche tordue/ -->\n"
     image.write(s)
-    pc1=cote/4
-    gc1=pc1+largeurFleche*tan(pi/6)
-    image.write(ligne(((cote-largeurFleche)/2,cote),(cote/2-largeurFleche/2,cote-pc1-petitRayon),couleur="blue"))# garde
-    image.write(ligne(((cote+largeurFleche)/2,cote),(cote/2+largeurFleche/2,cote-gc1-petitRayon),couleur="blue"))# garde
+
+   
+    image.write(ligne(((cote-largeurFleche)/2,cote),(cote/2-largeurFleche/2,cote-pc1),couleur="blue"))# garde
+    image.write(ligne(((cote+largeurFleche)/2,cote),(cote/2+largeurFleche/2,cote-gc1),couleur="blue"))# garde
+    """
     # Les deux virages (pas le bon angle)
     s="<path d=\" M  "+str(cote/2-largeurFleche/2+decalx)+ " "+str(cote-pc1-petitRayon+decaly)+ " a "+str(petitRayon)+\
        " "+str(petitRayon)+" 1 0 0 "+ str(-petitRayon)+" "+str(-petitRayon)+ "\" stroke=\"blue\"  fill=\"none\" />\n"
     image.write(s)
     s="<path d=\" M  "+str(cote/2+largeurFleche/2+decalx)+ " "+str(cote-gc1-petitRayon+decaly)+ " a "+str(petitRayon)+\
        " "+str(petitRayon)+" 1 0 0 "+ str(-petitRayon)+" "+str(-petitRayon)+ "\" stroke=\"blue\"  fill=\"none\" />\n"
+    """   
     image.write(s)
     
     # fin de la hampe
-    
 
+    # Hampe coudée de la pièce au milieu à gauche
+    image.write(ligne((cote-pc1,1.5*cote-u-largeurFleche ),(cote, 1.5*cote-u-largeurFleche),couleur="blue"))
+    image.write(ligne((cote-pc1,1.5*cote-u),(cote,1.5*cote-u),couleur="blue"))
+    
+    """
+     image.write(ligne((cote,1.5*cote-u),(cote,2.5*cote+u),couleur="red"))
+    """ 
     
    
     s="<!-- Pièce en haut à gauche le grand coin arrondi à gauche/ -->\n"
@@ -169,11 +177,12 @@ if __name__=="__main__":
     
    
     
-
+    
     # Piece du milieu à gauche
     s="<path d=\" M  "+str(decalx)+ " "+str(decaly+cote+cote/2)+ " a "+str(cote/2)+" "+str(cote/2)+" 0 0 1 "+\
        str(cote/2)+" "+str(-cote/2)+ "\" stroke=\"blue\"  fill=\"none\" />\n"
     image.write(s)
+    
 
     #Changement d'avis : on va découper les grandes lignes interieures, bien mettre tous les coins
     #et on peaufinea les trous à la fin
@@ -192,7 +201,7 @@ if __name__=="__main__":
     image.write(ligne((2*cote,0),(2*cote,2.5*cote-largeurFleche/2),couleur="blue"))
     image.write(ligne((2*cote,3*cote),(2*cote,2.5*cote+largeurFleche/2),couleur="blue"))
 
-    image.write(ligne((0,cote),(3*cote,cote),couleur="blue"))
+    image.write(ligne((0,cote),(3*cote,cote)))
     image.write(ligne((0,2*cote),(2.5*cote-largeurFleche/2,2*cote),couleur="blue"))
     image.write(ligne((3*cote,2*cote),(2.5*cote+largeurFleche/2,2*cote),couleur="blue"))
 
