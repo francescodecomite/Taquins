@@ -131,16 +131,16 @@ if __name__=="__main__":
     s="<!-- Pièce en haut à gauche ligne du bas/ -->\n"
     image.write(s)
     # Piece 1 (en haut à gauche)
-    pc1=cote/4
+    pc1=longueurFleche
     gc1=pc1+largeurFleche*tan(pi/6)
     
-    """
+    
     # Hampe coudée
     s="<!-- Pièce en haut à gauche la hampe de flèche tordue/ -->\n"
     image.write(s)
     pc1=cote/4
     gc1=pc1+largeurFleche*tan(pi/6)
-    image.write(ligne(((cote-largeurFleche)/2,cote),(cote/2-largeurFleche/2,cote-pc1-petitRayon),couleur="red"))# garde
+    image.write(ligne(((cote-largeurFleche)/2,cote),(cote/2-largeurFleche/2,cote-pc1-petitRayon),couleur="blue"))# garde
     image.write(ligne(((cote+largeurFleche)/2,cote),(cote/2+largeurFleche/2,cote-gc1-petitRayon),couleur="blue"))# garde
     # Les deux virages (pas le bon angle)
     s="<path d=\" M  "+str(cote/2-largeurFleche/2+decalx)+ " "+str(cote-pc1-petitRayon+decaly)+ " a "+str(petitRayon)+\
@@ -151,7 +151,7 @@ if __name__=="__main__":
     image.write(s)
     
     # fin de la hampe
-    """
+    
 
     
    
@@ -168,11 +168,11 @@ if __name__=="__main__":
     image.write(ligne((cote+cote/2+largeurFleche/2,0),(cote+cote/2+largeurFleche/2,pc1 ),couleur="blue")) # garde
     
    
-    # Piece en haut à droite
-   
+    
 
     # Piece du milieu à gauche
-    s="<path d=\" M  "+str(decalx)+ " "+str(decaly+cote+cote/2)+ " a "+str(cote/2)+" "+str(cote/2)+" 0 0 1 "+ str(cote/2)+" "+str(-cote/2)+ "\" stroke=\"blue\"  fill=\"none\" />\n"
+    s="<path d=\" M  "+str(decalx)+ " "+str(decaly+cote+cote/2)+ " a "+str(cote/2)+" "+str(cote/2)+" 0 0 1 "+\
+       str(cote/2)+" "+str(-cote/2)+ "\" stroke=\"blue\"  fill=\"none\" />\n"
     image.write(s)
 
     #Changement d'avis : on va découper les grandes lignes interieures, bien mettre tous les coins
