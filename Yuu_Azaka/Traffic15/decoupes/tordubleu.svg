@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="tordubleu.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   id="svg8861"
+   version="1.1"
+   viewBox="0 0 210 297"
+   height="297mm"
+   width="210mm">
+  <defs
+     id="defs8855" />
+  <sodipodi:namedview
+     inkscape:window-maximized="0"
+     inkscape:window-y="22"
+     inkscape:window-x="150"
+     inkscape:window-height="1040"
+     inkscape:window-width="1577"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="536.55102"
+     inkscape:cx="385.08853"
+     inkscape:zoom="0.40110023"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata8858">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Calque 1">
+    <g
+       transform="matrix(0,-0.52497051,0.52497051,0,38.458496,223.67543)"
+       id="g6398">
+      <g
+         id="g6362-9"
+         transform="translate(155.03537,-7.7409638)">
+        <path
+           id="line5877-5"
+           style="fill:none;stroke:#0000ff"
+           d="M 75,95.710678 H 62.5 c 0,0 -0.376438,0.09026 -0.510143,0.258111 -1.427585,1.792206 -3.845161,5.126871 -3.845161,5.126871 0,0 -6.418212,-5.300932 -7.596862,-6.461996 0.557013,-0.653717 0.894914,-1.049262 1.495341,-1.762365 1.571116,-1.865952 2.733881,-3.611692 5.634227,-6.034766 2.109497,-1.762365 4.654309,-1.541672 4.654309,-1.541672 L 75,85.355339"
+           sodipodi:nodetypes="ccsccsscc" />
+        <line
+           id="line6009-2"
+           stroke="#0000ff"
+           y2="90.533012"
+           x2="84.466988"
+           y1="81.066017"
+           x1="75" />
+        <line
+           id="line6011-5"
+           stroke="#0000ff"
+           y2="90.533012"
+           x2="84.466988"
+           y1="100"
+           x1="75" />
+      </g>
+      <path
+         style="opacity:1;fill:none;fill-rule:evenodd;stroke:#0000ff;paint-order:fill markers stroke"
+         d="m 229.93524,73.405176 0.0267,4.032077"
+         id="path6388" />
+      <path
+         style="opacity:1;fill:none;fill-rule:evenodd;stroke:#0000ff;paint-order:fill markers stroke"
+         d="m 230.01467,87.987881 -0.0755,4.267224"
+         id="path6390" />
+    </g>
+    <g
+       id="g6398-3"
+       transform="matrix(0,-0.52497051,0.52497051,0,38.458499,242.7528)">
+      <g
+         transform="translate(155.03537,-7.7409638)"
+         id="g6362-9-8">
+        <path
+           sodipodi:nodetypes="ccsccsscc"
+           d="M 75,95.710678 H 62.5 c 0,0 -0.376438,0.09026 -0.510143,0.258111 -1.427585,1.792206 -3.845161,5.126871 -3.845161,5.126871 0,0 -6.418212,-5.300932 -7.596862,-6.461996 0.557013,-0.653717 0.894914,-1.049262 1.495341,-1.762365 1.571116,-1.865952 2.733881,-3.611692 5.634227,-6.034766 2.109497,-1.762365 4.654309,-1.541672 4.654309,-1.541672 L 75,85.355339"
+           style="fill:none;stroke:#0000ff"
+           id="line5877-5-8" />
+        <line
+           x1="75"
+           y1="81.066017"
+           x2="84.466988"
+           y2="90.533012"
+           stroke="#0000ff"
+           id="line6009-2-5" />
+        <line
+           x1="75"
+           y1="100"
+           x2="84.466988"
+           y2="90.533012"
+           stroke="#0000ff"
+           id="line6011-5-1" />
+      </g>
+      <path
+         id="path6388-7"
+         d="m 229.93524,73.405176 0.0267,4.032077"
+         style="opacity:1;fill:none;fill-rule:evenodd;stroke:#0000ff;paint-order:fill markers stroke" />
+      <path
+         id="path6390-0"
+         d="m 230.01467,87.987881 -0.0755,4.267224"
+         style="opacity:1;fill:none;fill-rule:evenodd;stroke:#0000ff;paint-order:fill markers stroke" />
+    </g>
+  </g>
+</svg>
