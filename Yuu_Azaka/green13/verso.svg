@@ -10,7 +10,7 @@
    viewBox="0 0 1000 1000"
    version="1.1"
    id="svg3203"
-   sodipodi:docname="green13_final.svg"
+   sodipodi:docname="verso.svg"
    inkscape:version="1.0 (4035a4fb49, 2020-05-01)">
   <metadata
      id="metadata3209">
@@ -20,7 +20,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -48,51 +48,36 @@
      inkscape:window-maximized="1"
      inkscape:current-layer="svg3203" />
   <!-- Les bords intérieurs et exterieurs / -->
-  <rect
-     x="0"
-     y="0"
-     width="970"
-     height="670"
-     rx="20"
-     ry="20"
-     fill="none"
-     stroke="lime"
-     transform=""
-     id="rect2869" />
   <line
-     x1="35"
+     x1="940.81622"
      y1="35"
-     x2="35"
+     x2="940.81622"
      y2="635"
-     stroke="lime"
-     transform=""
+     stroke="#00ff00"
      id="line2871" />
   <line
-     x1="935"
+     x1="40.816223"
      y1="35"
-     x2="935"
+     x2="40.816223"
      y2="635"
-     stroke="lime"
-     transform=""
+     stroke="#00ff00"
      id="line2873" />
   <line
-     x1="35"
+     x1="940.81622"
      y1="35"
-     x2="935"
+     x2="40.816223"
      y2="35"
-     stroke="lime"
-     transform=""
+     stroke="#00ff00"
      id="line2875" />
   <line
-     x1="35"
+     x1="940.81622"
      y1="635"
-     x2="935"
+     x2="40.816223"
      y2="635"
-     stroke="lime"
-     transform=""
+     stroke="#00ff00"
      id="line2877" />
   <rect
-     x="35"
+     x="-940.81622"
      y="35"
      width="150"
      height="100"
@@ -100,11 +85,11 @@
      ry="10"
      fill="none"
      stroke="black"
-     transform=""
+     transform="scale(-1,1)"
      id="rect2879"
      style="stroke:#ff0000;stroke-opacity:1" />
   <rect
-     x="185"
+     x="-790.81622"
      y="35"
      width="150"
      height="100"
@@ -112,11 +97,11 @@
      ry="10"
      fill="none"
      stroke="black"
-     transform=""
+     transform="scale(-1,1)"
      id="rect2881"
      style="stroke:#ff0000;stroke-opacity:1" />
   <rect
-     x="35"
+     x="-940.81622"
      y="135"
      width="150"
      height="100"
@@ -124,11 +109,11 @@
      ry="10"
      fill="none"
      stroke="black"
-     transform=""
+     transform="scale(-1,1)"
      id="rect2883"
      style="stroke:#ff0000;stroke-opacity:1" />
   <rect
-     x="185"
+     x="-790.81622"
      y="135"
      width="150"
      height="100"
@@ -136,11 +121,11 @@
      ry="10"
      fill="none"
      stroke="black"
-     transform=""
+     transform="scale(-1,1)"
      id="rect2885"
      style="stroke:#ff0000;stroke-opacity:1" />
   <rect
-     x="35"
+     x="-940.81622"
      y="235"
      width="150"
      height="100"
@@ -148,11 +133,11 @@
      ry="10"
      fill="none"
      stroke="black"
-     transform=""
+     transform="scale(-1,1)"
      id="rect2887"
      style="stroke:#ff0000;stroke-opacity:1" />
   <rect
-     x="185"
+     x="-790.81622"
      y="235"
      width="150"
      height="100"
@@ -160,11 +145,11 @@
      ry="10"
      fill="none"
      stroke="black"
-     transform=""
+     transform="scale(-1,1)"
      id="rect2889"
      style="stroke:#ff0000;stroke-opacity:1" />
   <rect
-     x="35"
+     x="-940.81622"
      y="335"
      width="150"
      height="100"
@@ -172,11 +157,11 @@
      ry="10"
      fill="none"
      stroke="black"
-     transform=""
+     transform="scale(-1,1)"
      id="rect2891"
      style="stroke:#ff0000;stroke-opacity:1" />
   <rect
-     x="185"
+     x="-790.81622"
      y="335"
      width="150"
      height="100"
@@ -184,11 +169,11 @@
      ry="10"
      fill="none"
      stroke="black"
-     transform=""
+     transform="scale(-1,1)"
      id="rect2893"
      style="stroke:#ff0000;stroke-opacity:1" />
   <rect
-     x="35"
+     x="-940.81622"
      y="435"
      width="150"
      height="100"
@@ -196,11 +181,11 @@
      ry="10"
      fill="none"
      stroke="black"
-     transform=""
+     transform="scale(-1,1)"
      id="rect2895"
      style="stroke:#ff0000;stroke-opacity:1" />
   <rect
-     x="185"
+     x="-790.81622"
      y="435"
      width="150"
      height="100"
@@ -208,11 +193,11 @@
      ry="10"
      fill="none"
      stroke="black"
-     transform=""
+     transform="scale(-1,1)"
      id="rect2897"
      style="stroke:#ff0000;stroke-opacity:1" />
   <rect
-     x="35"
+     x="-940.81622"
      y="535"
      width="150"
      height="100"
@@ -220,11 +205,11 @@
      ry="10"
      fill="none"
      stroke="black"
-     transform=""
+     transform="scale(-1,1)"
      id="rect2899"
      style="stroke:#ff0000;stroke-opacity:1" />
   <rect
-     x="185"
+     x="-790.81622"
      y="535"
      width="150"
      height="100"
@@ -232,11 +217,11 @@
      ry="10"
      fill="none"
      stroke="black"
-     transform=""
+     transform="scale(-1,1)"
      id="rect2901"
      style="stroke:#ff0000;stroke-opacity:1" />
   <rect
-     x="335"
+     x="-640.81622"
      y="35"
      width="100"
      height="150"
@@ -244,11 +229,11 @@
      ry="10"
      fill="none"
      stroke="black"
-     transform=""
+     transform="scale(-1,1)"
      id="rect2903"
      style="stroke:#ff0000;stroke-opacity:1" />
   <rect
-     x="335"
+     x="-640.81622"
      y="185"
      width="100"
      height="150"
@@ -256,11 +241,11 @@
      ry="10"
      fill="none"
      stroke="black"
-     transform=""
+     transform="scale(-1,1)"
      id="rect2905"
      style="stroke:#ff0000;stroke-opacity:1" />
   <rect
-     x="435"
+     x="-540.81622"
      y="35"
      width="100"
      height="150"
@@ -268,11 +253,11 @@
      ry="10"
      fill="none"
      stroke="black"
-     transform=""
+     transform="scale(-1,1)"
      id="rect2907"
      style="stroke:#ff0000;stroke-opacity:1" />
   <rect
-     x="435"
+     x="-540.81622"
      y="185"
      width="100"
      height="150"
@@ -280,11 +265,11 @@
      ry="10"
      fill="none"
      stroke="black"
-     transform=""
+     transform="scale(-1,1)"
      id="rect2909"
      style="stroke:#ff0000;stroke-opacity:1" />
   <rect
-     x="535"
+     x="-440.81622"
      y="35"
      width="100"
      height="150"
@@ -292,11 +277,11 @@
      ry="10"
      fill="none"
      stroke="black"
-     transform=""
+     transform="scale(-1,1)"
      id="rect2911"
      style="stroke:#ff0000;stroke-opacity:1" />
   <rect
-     x="535"
+     x="-440.81622"
      y="185"
      width="100"
      height="150"
@@ -304,11 +289,11 @@
      ry="10"
      fill="none"
      stroke="black"
-     transform=""
+     transform="scale(-1,1)"
      id="rect2913"
      style="stroke:#ff0000;stroke-opacity:1" />
   <rect
-     x="635"
+     x="-340.81622"
      y="35"
      width="100"
      height="150"
@@ -316,11 +301,11 @@
      ry="10"
      fill="none"
      stroke="black"
-     transform=""
+     transform="scale(-1,1)"
      id="rect2915"
      style="stroke:#ff0000;stroke-opacity:1" />
   <rect
-     x="635"
+     x="-340.81622"
      y="185"
      width="100"
      height="150"
@@ -328,11 +313,11 @@
      ry="10"
      fill="none"
      stroke="black"
-     transform=""
+     transform="scale(-1,1)"
      id="rect2917"
      style="stroke:#ff0000;stroke-opacity:1" />
   <rect
-     x="735"
+     x="-240.81622"
      y="35"
      width="100"
      height="150"
@@ -340,11 +325,11 @@
      ry="10"
      fill="none"
      stroke="black"
-     transform=""
+     transform="scale(-1,1)"
      id="rect2919"
      style="stroke:#ff0000;stroke-opacity:1" />
   <rect
-     x="735"
+     x="-240.81622"
      y="185"
      width="100"
      height="150"
@@ -352,11 +337,11 @@
      ry="10"
      fill="none"
      stroke="black"
-     transform=""
+     transform="scale(-1,1)"
      id="rect2921"
      style="stroke:#ff0000;stroke-opacity:1" />
   <rect
-     x="835"
+     x="-140.81622"
      y="35"
      width="100"
      height="150"
@@ -364,11 +349,11 @@
      ry="10"
      fill="none"
      stroke="black"
-     transform=""
+     transform="scale(-1,1)"
      id="rect2923"
      style="stroke:#ff0000;stroke-opacity:1" />
   <rect
-     x="835"
+     x="-140.81622"
      y="185"
      width="100"
      height="150"
@@ -376,11 +361,11 @@
      ry="10"
      fill="none"
      stroke="black"
-     transform=""
+     transform="scale(-1,1)"
      id="rect2925"
      style="stroke:#ff0000;stroke-opacity:1" />
   <rect
-     x="335"
+     x="-640.81622"
      y="335"
      width="150"
      height="100"
@@ -388,11 +373,11 @@
      ry="10"
      fill="none"
      stroke="black"
-     transform=""
+     transform="scale(-1,1)"
      id="rect2927"
      style="stroke:#ff0000;stroke-opacity:1" />
   <rect
-     x="485"
+     x="-490.81622"
      y="335"
      width="150"
      height="100"
@@ -400,11 +385,11 @@
      ry="10"
      fill="none"
      stroke="black"
-     transform=""
+     transform="scale(-1,1)"
      id="rect2929"
      style="stroke:#ff0000;stroke-opacity:1" />
   <rect
-     x="335"
+     x="-640.81622"
      y="435"
      width="150"
      height="100"
@@ -412,11 +397,11 @@
      ry="10"
      fill="none"
      stroke="black"
-     transform=""
+     transform="scale(-1,1)"
      id="rect2931"
      style="stroke:#ff0000;stroke-opacity:1" />
   <rect
-     x="485"
+     x="-490.81622"
      y="435"
      width="150"
      height="100"
@@ -424,11 +409,11 @@
      ry="10"
      fill="none"
      stroke="black"
-     transform=""
+     transform="scale(-1,1)"
      id="rect2933"
      style="stroke:#ff0000;stroke-opacity:1" />
   <rect
-     x="335"
+     x="-640.81622"
      y="535"
      width="150"
      height="100"
@@ -436,11 +421,11 @@
      ry="10"
      fill="none"
      stroke="black"
-     transform=""
+     transform="scale(-1,1)"
      id="rect2935"
      style="stroke:#ff0000;stroke-opacity:1" />
   <rect
-     x="485"
+     x="-490.81622"
      y="535"
      width="150"
      height="100"
@@ -448,11 +433,11 @@
      ry="10"
      fill="none"
      stroke="black"
-     transform=""
+     transform="scale(-1,1)"
      id="rect2937"
      style="stroke:#ff0000;stroke-opacity:1" />
   <rect
-     x="635"
+     x="-340.81622"
      y="335"
      width="100"
      height="150"
@@ -460,11 +445,11 @@
      ry="10"
      fill="none"
      stroke="black"
-     transform=""
+     transform="scale(-1,1)"
      id="rect2939"
      style="stroke:#ff0000;stroke-opacity:1" />
   <rect
-     x="635"
+     x="-340.81622"
      y="485"
      width="100"
      height="150"
@@ -472,11 +457,11 @@
      ry="10"
      fill="none"
      stroke="black"
-     transform=""
+     transform="scale(-1,1)"
      id="rect2941"
      style="stroke:#ff0000;stroke-opacity:1" />
   <rect
-     x="735"
+     x="-240.81622"
      y="335"
      width="100"
      height="150"
@@ -484,11 +469,11 @@
      ry="10"
      fill="none"
      stroke="black"
-     transform=""
+     transform="scale(-1,1)"
      id="rect2943"
      style="stroke:#ff0000;stroke-opacity:1" />
   <rect
-     x="735"
+     x="-240.81622"
      y="485"
      width="100"
      height="150"
@@ -496,11 +481,11 @@
      ry="10"
      fill="none"
      stroke="black"
-     transform=""
+     transform="scale(-1,1)"
      id="rect2945"
      style="stroke:#ff0000;stroke-opacity:1" />
   <rect
-     x="835"
+     x="-140.81622"
      y="335"
      width="100"
      height="150"
@@ -508,11 +493,11 @@
      ry="10"
      fill="none"
      stroke="black"
-     transform=""
+     transform="scale(-1,1)"
      id="rect2947"
      style="stroke:#ff0000;stroke-opacity:1" />
   <rect
-     x="835"
+     x="-140.81622"
      y="485"
      width="100"
      height="150"
@@ -520,221 +505,21 @@
      ry="10"
      fill="none"
      stroke="black"
-     transform=""
+     transform="scale(-1,1)"
      id="rect2949"
      style="stroke:#ff0000;stroke-opacity:1" />
-  <circle
-     cx="335"
-     cy="335"
-     r="50"
-     fill="none"
-     stroke="blue"
-     id="circle2951" />
-  <circle
-     cx="635"
-     cy="335"
-     r="50"
-     fill="none"
-     stroke="blue"
-     id="circle2953" />
-  <circle
-     cx="185"
-     cy="535"
-     r="50"
-     fill="none"
-     stroke="blue"
-     id="circle2955" />
-  <circle
-     cx="835"
-     cy="185"
-     r="50"
-     fill="none"
-     stroke="blue"
-     id="circle2957" />
-  <line
-     x1="35"
-     y1="135"
-     x2="185"
-     y2="135"
-     stroke="blue"
-     transform=""
-     id="line2959" />
-  <line
-     x1="185"
-     y1="135"
-     x2="185"
-     y2="335"
-     stroke="blue"
-     transform=""
-     id="line2961" />
-  <line
-     x1="185"
-     y1="335"
-     x2="285"
-     y2="335"
-     stroke="blue"
-     transform=""
-     id="line2963" />
-  <line
-     x1="35"
-     y1="435"
-     x2="485"
-     y2="435"
-     stroke="blue"
-     transform=""
-     id="line2965" />
-  <line
-     x1="335"
-     y1="535"
-     x2="635"
-     y2="535"
-     stroke="blue"
-     transform=""
-     id="line2967" />
-  <line
-     x1="335"
-     y1="435"
-     x2="335"
-     y2="535"
-     stroke="blue"
-     transform=""
-     id="line2969" />
-  <line
-     x1="635"
-     y1="635"
-     x2="635"
-     y2="385"
-     stroke="blue"
-     transform=""
-     id="line2971" />
-  <line
-     x1="485"
-     y1="335"
-     x2="485"
-     y2="435"
-     stroke="blue"
-     transform=""
-     id="line2973" />
-  <line
-     x1="735"
-     y1="635"
-     x2="735"
-     y2="485"
-     stroke="blue"
-     transform=""
-     id="line2975" />
-  <line
-     x1="385"
-     y1="335"
-     x2="585"
-     y2="335"
-     stroke="blue"
-     transform=""
-     id="line2977" />
-  <line
-     x1="435"
-     y1="335"
-     x2="435"
-     y2="185"
-     stroke="blue"
-     transform=""
-     id="line2979" />
-  <line
-     x1="435"
-     y1="185"
-     x2="635"
-     y2="185"
-     stroke="blue"
-     transform=""
-     id="line2981" />
-  <line
-     x1="635"
-     y1="185"
-     x2="635"
-     y2="35"
-     stroke="blue"
-     transform=""
-     id="line2983" />
-  <line
-     x1="735"
-     y1="335"
-     x2="735"
-     y2="35"
-     stroke="blue"
-     transform=""
-     id="line2985" />
-  <line
-     x1="685"
-     y1="335"
-     x2="835"
-     y2="335"
-     stroke="blue"
-     transform=""
-     id="line2987" />
-  <line
-     x1="835"
-     y1="235"
-     x2="835"
-     y2="485"
-     stroke="blue"
-     transform=""
-     id="line2989" />
-  <line
-     x1="735"
-     y1="485"
-     x2="835"
-     y2="485"
-     stroke="blue"
-     transform=""
-     id="line2991" />
-  <line
-     x1="885"
-     y1="185"
-     x2="935"
-     y2="185"
-     stroke="blue"
-     transform=""
-     id="line2993" />
-  <line
-     x1="335"
-     y1="35"
-     x2="335"
-     y2="285"
-     stroke="blue"
-     transform=""
-     id="line2995" />
   <!-- Pièce en haut à gauche / -->
   <!-- Pièce en haut à gauche ligne du bas/ -->
   <!-- Pièce en haut à gauche la hampe de flèche tordue/ -->
   <!-- Pièce en haut à gauche la hampe de flèche tordue/ -->
   <!-- Pièce en haut à gauche le grand coin arrondi à gauche/ -->
   <!-- Pièce en haut au milieu/ -->
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px"
-     x="36.252522"
-     y="660.21259"
-     id="text3213"><tspan
-       sodipodi:role="line"
-       id="tspan3211"
-       x="36.252522"
-       y="660.21259">Green 13</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px"
-     x="743.17664"
-     y="660.40009"
-     id="text3217"><tspan
-       sodipodi:role="line"
-       id="tspan3215"
-       x="743.17664"
-       y="660.40009"
-       dx="0 0 0 0 0 0">Creator Yuu Azaka</tspan></text>
   <rect
+     transform="scale(-1,1)"
      y="-17.0896"
-     x="-17.0896"
+     x="-992.90582"
      height="722.89008"
      width="1009.9954"
      id="rect209"
-     style="fill:none;fill-rule:evenodd;stroke:#00ff00;paint-order:fill markers stroke;stroke-opacity:1" />
+     style="fill:none;fill-rule:evenodd;stroke:#00ff00;stroke-opacity:1;paint-order:fill markers stroke" />
 </svg>
