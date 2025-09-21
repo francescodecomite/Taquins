@@ -7,34 +7,34 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   sodipodi:docname="dropoutbois3mm.svg"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   id="svg2403"
-   version="1.1"
-   viewBox="0 0 210 297"
+   width="210mm"
    height="297mm"
-   width="210mm">
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg2403"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="dropoutbois3mm.svg">
   <defs
      id="defs2397" />
   <sodipodi:namedview
-     inkscape:document-rotation="0"
-     inkscape:window-maximized="1"
-     inkscape:window-y="-8"
-     inkscape:window-x="-8"
-     inkscape:window-height="1017"
-     inkscape:window-width="1920"
-     showgrid="false"
-     inkscape:current-layer="layer1"
-     inkscape:document-units="mm"
-     inkscape:cy="560"
-     inkscape:cx="-311.42857"
-     inkscape:zoom="0.34074713"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     borderopacity="1.0"
-     bordercolor="#666666"
+     id="base"
      pagecolor="#ffffff"
-     id="base" />
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.3269555"
+     inkscape:cx="262.70213"
+     inkscape:cy="541.95783"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:document-rotation="0" />
   <metadata
      id="metadata2400">
     <rdf:RDF>
@@ -43,161 +43,153 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     id="layer1"
+     inkscape:label="Calque 1"
      inkscape:groupmode="layer"
-     inkscape:label="Calque 1">
+     id="layer1">
     <g
-       id="g1777"
-       transform="matrix(0.26458333,0,0,0.26458333,-610.05073,-121.04167)" />
-    <g
-       id="g904"
-       transform="matrix(0.26458333,0,0,0.26458333,-3.7022137,129.28348)">
-      <rect
-         style="stroke-width:1.632"
-         id="rect14"
-         stroke="#00ff00"
-         fill="none"
-         ry="32.639999"
-         rx="32.639999"
-         height="326.39999"
-         width="408"
-         y="-63.772789"
-         x="175.42722" />
-      <circle
-         style="stroke-width:1.632"
-         id="circle16"
-         stroke="#0000ff"
-         fill="none"
-         r="6.7438016"
-         cy="-43.372791"
-         cx="257.02722" />
-      <circle
-         style="stroke-width:1.632"
-         id="circle18"
-         stroke="#0000ff"
-         fill="none"
-         r="6.7438016"
-         cy="-43.372791"
-         cx="501.82721" />
-      <circle
-         style="stroke-width:1.632"
-         id="circle20"
-         stroke="#0000ff"
-         fill="none"
-         r="6.7438016"
-         cy="242.2272"
-         cx="257.02722" />
-      <circle
-         style="stroke-width:1.632"
-         id="circle22"
-         stroke="#0000ff"
-         fill="none"
-         r="6.7438016"
-         cy="242.2272"
-         cx="501.82721" />
-      <rect
-         style="stroke-width:1.632"
-         id="rect24"
-         stroke="#0000ff"
-         fill="none"
-         ry="0"
-         rx="0"
-         height="244.8"
-         width="326.39999"
-         y="-22.97279"
-         x="216.2272" />
-      <line
-         style="stroke-width:1.632"
-         id="line26"
-         stroke="#0000ff"
-         y2="221.82721"
-         x2="297.82721"
-         y1="-22.97279"
-         x1="297.82721" />
-      <line
-         style="stroke-width:1.632"
-         id="line28"
-         stroke="#0000ff"
-         y2="221.82721"
-         x2="379.42722"
-         y1="-22.97279"
-         x1="379.42722" />
-      <line
-         style="stroke-width:1.632"
-         id="line30"
-         stroke="#0000ff"
-         y2="221.82721"
-         x2="461.02722"
-         y1="58.627209"
-         x1="461.02722" />
-      <line
-         style="stroke-width:1.632"
-         id="line32"
-         stroke="#0000ff"
-         y2="58.627209"
-         x2="542.6272"
-         y1="58.627209"
-         x1="297.82721" />
-    </g>
-    <g
-       transform="matrix(0.26458333,0,0,0.26458333,-105.30221,30.858479)"
-       id="g912">
-      <circle
-         style="stroke-width:1.632"
-         id="circle34"
-         stroke="#0000ff"
-         fill="none"
-         r="6.7438016"
-         cy="-43.372791"
-         cx="673.18719" />
-      <circle
-         style="stroke-width:1.632"
-         id="circle36"
-         stroke="#0000ff"
-         fill="none"
-         r="6.7438016"
-         cy="-43.372791"
-         cx="917.98718" />
-      <circle
-         style="stroke-width:1.632"
-         id="circle38"
-         stroke="#0000ff"
-         fill="none"
-         r="6.7438016"
-         cy="242.2272"
-         cx="673.18719" />
-      <circle
-         style="stroke-width:1.632"
-         id="circle40"
-         stroke="#0000ff"
-         fill="none"
-         r="6.7438016"
-         cy="242.2272"
-         cx="917.98718" />
-      <rect
-         style="stroke-width:1.632"
-         id="rect42"
-         stroke="#00ff00"
-         fill="none"
-         ry="32.639999"
-         rx="32.639999"
-         height="326.39999"
-         width="408"
-         y="-63.772789"
-         x="591.58722" />
-      <circle
-         style="stroke-width:1.632"
-         id="circle44"
-         stroke="#0000ff"
-         fill="none"
-         r="40.799999"
-         cy="99.427208"
-         cx="917.98718" />
-    </g>
+       transform="matrix(0.26458333,0,0,0.26458333,-610.05073,-121.04167)"
+       id="g1777" />
+    <rect
+       style="stroke-width:0.4318"
+       id="rect14"
+       stroke="#00ff00"
+       fill="none"
+       ry="8.6359997"
+       rx="8.6359997"
+       height="86.360001"
+       width="107.95"
+       y="112.41026"
+       x="42.712902" />
+    <circle
+       style="stroke-width:0.474933"
+       id="circle16"
+       stroke="#0000ff"
+       fill="none"
+       r="1.9625335"
+       cy="117.80776"
+       cx="64.302902" />
+    <circle
+       style="stroke-width:0.474933"
+       id="circle18"
+       stroke="#0000ff"
+       fill="none"
+       r="1.9625335"
+       cy="117.80776"
+       cx="129.07291" />
+    <circle
+       style="stroke-width:0.474933"
+       id="circle20"
+       stroke="#0000ff"
+       fill="none"
+       r="1.9625335"
+       cy="193.37276"
+       cx="64.302902" />
+    <circle
+       style="stroke-width:0.474933"
+       id="circle22"
+       stroke="#0000ff"
+       fill="none"
+       r="1.9625335"
+       cy="193.37276"
+       cx="129.07291" />
+    <rect
+       style="stroke-width:0.4318"
+       id="rect24"
+       stroke="#0000ff"
+       fill="none"
+       ry="0"
+       rx="0"
+       height="64.769997"
+       width="86.360001"
+       y="123.20526"
+       x="53.5079" />
+    <line
+       style="stroke-width:0.4318"
+       id="line26"
+       stroke="#0000ff"
+       y2="187.97527"
+       x2="75.0979"
+       y1="123.20526"
+       x1="75.0979" />
+    <line
+       style="stroke-width:0.4318"
+       id="line28"
+       stroke="#0000ff"
+       y2="187.97527"
+       x2="96.687904"
+       y1="123.20526"
+       x1="96.687904" />
+    <line
+       style="stroke-width:0.4318"
+       id="line30"
+       stroke="#0000ff"
+       y2="187.97527"
+       x2="118.2779"
+       y1="144.79526"
+       x1="118.2779" />
+    <line
+       style="stroke-width:0.4318"
+       id="line32"
+       stroke="#0000ff"
+       y2="144.79526"
+       x2="139.8679"
+       y1="144.79526"
+       x1="75.0979" />
+    <circle
+       style="stroke-width:0.474933"
+       id="circle34"
+       stroke="#0000ff"
+       fill="none"
+       r="1.9625335"
+       cy="19.382761"
+       cx="72.811897" />
+    <circle
+       style="stroke-width:0.474933"
+       id="circle36"
+       stroke="#0000ff"
+       fill="none"
+       r="1.9625335"
+       cy="19.382761"
+       cx="137.58189" />
+    <circle
+       style="stroke-width:0.474933"
+       id="circle38"
+       stroke="#0000ff"
+       fill="none"
+       r="1.9625335"
+       cy="94.947762"
+       cx="72.811897" />
+    <circle
+       style="stroke-width:0.474933"
+       id="circle40"
+       stroke="#0000ff"
+       fill="none"
+       r="1.9625335"
+       cy="94.947762"
+       cx="137.58189" />
+    <rect
+       style="stroke-width:0.4318"
+       id="rect42"
+       stroke="#00ff00"
+       fill="none"
+       ry="8.6359997"
+       rx="8.6359997"
+       height="86.360001"
+       width="107.95"
+       y="13.985262"
+       x="51.221905" />
+    <circle
+       style="stroke-width:0.4318"
+       id="circle44"
+       stroke="#0000ff"
+       fill="none"
+       r="10.795"
+       cy="57.16526"
+       cx="137.58189" />
   </g>
 </svg>
