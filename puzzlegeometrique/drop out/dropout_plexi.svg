@@ -7,34 +7,34 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
-   version="1.1"
-   id="svg1808"
+   sodipodi:docname="dropout_plexi.svg"
    inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   sodipodi:docname="dropout_plexi.svg">
+   id="svg1808"
+   version="1.1"
+   viewBox="0 0 210 297"
+   height="297mm"
+   width="210mm">
   <defs
      id="defs1802" />
   <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="0.93829922"
-     inkscape:cx="167.10285"
-     inkscape:cy="68.353187"
-     inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="1912"
-     inkscape:window-y="-8"
+     inkscape:document-rotation="0"
      inkscape:window-maximized="1"
-     inkscape:document-rotation="0" />
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:window-height="1017"
+     inkscape:window-width="1920"
+     showgrid="false"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="560"
+     inkscape:cx="-311.42857"
+     inkscape:zoom="0.34074713"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
   <metadata
      id="metadata1805">
     <rdf:RDF>
@@ -43,64 +43,66 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Calque 1"
+     id="layer1"
      inkscape:groupmode="layer"
-     id="layer1">
-    <circle
-       style="stroke-width:0.474933"
-       id="circle2"
-       stroke="#0000ff"
-       fill="none"
-       r="1.9625335"
-       cy="35.983101"
-       cx="80.981079" />
-    <circle
-       style="stroke-width:0.474933"
-       id="circle4"
-       stroke="#0000ff"
-       fill="none"
-       r="1.9625335"
-       cy="35.983101"
-       cx="145.75108" />
-    <circle
-       style="stroke-width:0.474933"
-       id="circle6"
-       stroke="#0000ff"
-       fill="none"
-       r="1.9625335"
-       cy="111.5481"
-       cx="80.981079" />
-    <circle
-       style="stroke-width:0.474933"
-       id="circle8"
-       stroke="#0000ff"
-       fill="none"
-       r="1.9625335"
-       cy="111.5481"
-       cx="145.75108" />
-    <rect
-       style="stroke-width:0.4318"
-       id="rect10"
-       stroke="#00ff00"
-       fill="none"
-       ry="8.6359997"
-       rx="8.6359997"
-       height="86.360001"
-       width="107.95"
-       y="30.585602"
-       x="59.391079" />
-    <circle
-       style="stroke-width:0.4318"
-       id="circle12"
-       stroke="#0000ff"
-       fill="none"
-       r="10.795"
-       cy="73.765602"
-       cx="80.981079" />
+     inkscape:label="Calque 1">
+    <g
+       transform="matrix(0.26458333,0,0,0.26458333,122.30227,46.676127)"
+       id="g892">
+      <g
+         transform="matrix(1.632,0,0,1.632,-237.77458,-60.814584)"
+         id="g883">
+        <circle
+           cx="50"
+           cy="12.5"
+           r="4.1322312"
+           fill="none"
+           stroke="#0000ff"
+           id="circle2" />
+        <circle
+           cx="200"
+           cy="12.5"
+           r="4.1322312"
+           fill="none"
+           stroke="#0000ff"
+           id="circle4" />
+        <circle
+           cx="50"
+           cy="187.5"
+           r="4.1322312"
+           fill="none"
+           stroke="#0000ff"
+           id="circle6" />
+        <circle
+           cx="200"
+           cy="187.5"
+           r="4.1322312"
+           fill="none"
+           stroke="#0000ff"
+           id="circle8" />
+        <rect
+           x="0"
+           y="0"
+           width="250"
+           height="200"
+           rx="20"
+           ry="20"
+           fill="none"
+           stroke="#00ff00"
+           id="rect10" />
+        <circle
+           cx="50"
+           cy="100"
+           r="25"
+           fill="none"
+           stroke="#0000ff"
+           id="circle12" />
+      </g>
+    </g>
   </g>
 </svg>

@@ -8,7 +8,7 @@ Il faut 26 mouvements.
 
 Les deux fichiers *dropout_plexi* et *dropout_bois* contiennent les infos de découpe pour chacune des matières, 
 à la même échelle. 
-Il y a aussi 4 trous pour les vis (coller du plexi, ça ne donne pas de résultats terribles). 
+Il y a aussi 4 trous pour les vis (coller du plexi, ça ne donne pas de résultats terribles. 
 On met de la colle partout. 
 
 Le fichier *dropout.py* est un programme python qui génère le fichier *dropout.svg*, avec des paramètrages possibles. 
